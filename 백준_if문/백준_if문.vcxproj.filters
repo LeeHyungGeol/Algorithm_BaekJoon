@@ -13,52 +13,85 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\for문">
+      <UniqueIdentifier>{59548fa5-548a-4789-9678-aba48f4a4b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\while문">
+      <UniqueIdentifier>{ee988908-927f-41b5-80a6-ee14a6ce361e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\배열">
+      <UniqueIdentifier>{2323b60f-4132-491e-82a2-11537ecb8034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\if문">
+      <UniqueIdentifier>{36dd3b57-b37a-4a78-9b27-4fdef881cdd4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="두 수 비교하기_if문.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="사분면 고르기_if문.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="시험 성적_if문.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="알람 시계_if문.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="윤년_if문.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="구구단을 출력하는 문제_for문.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="A+B를 여러 번 출력하는 문제_for문.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1부터 N까지 출력하는 문제_for문.cpp">
+      <Filter>소스 파일\for문</Filter>
     </ClCompile>
     <ClCompile Include="1부터 N까지의 합을 구하는 문제_for문.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\for문</Filter>
     </ClCompile>
-    <ClCompile Include="빠르게 입력받고 출력하는 문제_for문.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="A+B를 여러 번 출력하는 문제_for문.cpp">
+      <Filter>소스 파일\for문</Filter>
     </ClCompile>
     <ClCompile Include="N부터 1까지 출력하는 문제_for문.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\for문</Filter>
     </ClCompile>
-    <ClCompile Include="1부터 N까지 출력하는 문제_for문.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="구구단을 출력하는 문제_for문.cpp">
+      <Filter>소스 파일\for문</Filter>
+    </ClCompile>
+    <ClCompile Include="빠르게 입력받고 출력하는 문제_for문.cpp">
+      <Filter>소스 파일\for문</Filter>
     </ClCompile>
     <ClCompile Include="별찍기_for문.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="정수 N개로 이루어진 수열 A와 정수 X가 주어진다. 이때, A에서 X보다 작은 수를 모두 출력하는 프로그램을 작성하시오.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\for문</Filter>
     </ClCompile>
     <ClCompile Include="A+B를 여러번 풀력하는 문제_while문.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\while문</Filter>
     </ClCompile>
     <ClCompile Include="더하기 사이클_while문.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\while문</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 N개로 이루어진 수열 A와 정수 X가 주어진다. 이때, A에서 X보다 작은 수를 모두 출력하는 프로그램을 작성하시오.cpp">
+      <Filter>소스 파일\for문</Filter>
+    </ClCompile>
+    <ClCompile Include="OX퀴즈_배열.cpp">
+      <Filter>소스 파일\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="각 숫자가 몇 번 나왔는지 저장하기 위해 일차원 배열을 만드는 문제_배열.cpp">
+      <Filter>소스 파일\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="나머지_배열.cpp">
+      <Filter>소스 파일\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값이 어디에 있는지 찾는 문제_배열.cpp">
+      <Filter>소스 파일\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="최솟값과 최댓값을 찾는 문제_배열.cpp">
+      <Filter>소스 파일\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="평균은 넘겠지_배열.cpp">
+      <Filter>소스 파일\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="평균을 조작하는 문제_배열.cpp">
+      <Filter>소스 파일\배열</Filter>
+    </ClCompile>
+    <ClCompile Include="두 수 비교하기_if문.cpp">
+      <Filter>소스 파일\if문</Filter>
+    </ClCompile>
+    <ClCompile Include="사분면 고르기_if문.cpp">
+      <Filter>소스 파일\if문</Filter>
+    </ClCompile>
+    <ClCompile Include="시험 성적_if문.cpp">
+      <Filter>소스 파일\if문</Filter>
+    </ClCompile>
+    <ClCompile Include="알람 시계_if문.cpp">
+      <Filter>소스 파일\if문</Filter>
+    </ClCompile>
+    <ClCompile Include="윤년_if문.cpp">
+      <Filter>소스 파일\if문</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
