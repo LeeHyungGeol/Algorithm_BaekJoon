@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\if문">
       <UniqueIdentifier>{36dd3b57-b37a-4a78-9b27-4fdef881cdd4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\함수">
+      <UniqueIdentifier>{6abf1536-28c0-44bf-9bbd-b485050b6bd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1부터 N까지 출력하는 문제_for문.cpp">
@@ -92,6 +95,15 @@
     </ClCompile>
     <ClCompile Include="윤년_if문.cpp">
       <Filter>소스 파일\if문</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 N개의 합_함수.cpp">
+      <Filter>소스 파일\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="셀프 넘버_함수.cpp">
+      <Filter>소스 파일\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="한수_함수(function).cpp">
+      <Filter>소스 파일\함수</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
