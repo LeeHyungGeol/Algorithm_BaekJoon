@@ -13,7 +13,7 @@ int main() {
 		str[i] = toupper(str[i]); //소문자를 대문자로 교환.
 	}
 	for (int i = 0; i < str.size(); i++) {
-			arr[alphabet.find(str[i])]++;
+		arr[alphabet.find(str[i])]++;
 	}
 	for (int i = 0; i < 26; i++) {
 		if (arr[i] > max) {
@@ -22,9 +22,7 @@ int main() {
 		}
 	}
 	sort(arr, arr + 26, greater<int>()); //역순으로 정렬
-	/*for (int i = 0; i < 26; ++i) {
-		printf("%d ", arr[i]);
-	}*/
+	
 	if (arr[0] == arr[1])
 		cout << "?" << '\n';
 	else

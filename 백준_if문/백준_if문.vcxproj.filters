@@ -126,5 +126,17 @@
     <ClCompile Include="단어의 개수_문자열.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
+    <ClCompile Include="상수_문자열.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="다이얼_문자열.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="크로아티아 알파벳_문자열.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="그룹 단어 체커_문자열.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
