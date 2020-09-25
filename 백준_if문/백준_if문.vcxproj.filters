@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\문자열">
       <UniqueIdentifier>{852cfaa4-c5b4-44e5-b2c4-f2607f8f01d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\수학1">
+      <UniqueIdentifier>{0a571427-97ee-467b-bf23-f1b0aaa8be3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1부터 N까지 출력하는 문제_for문.cpp">
@@ -137,6 +140,12 @@
     </ClCompile>
     <ClCompile Include="그룹 단어 체커_문자열.cpp">
       <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="손익분기점_수학1.cpp">
+      <Filter>소스 파일\수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="설탕배달_수학1.cpp">
+      <Filter>소스 파일\수학1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
