@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\수학1">
       <UniqueIdentifier>{0a571427-97ee-467b-bf23-f1b0aaa8be3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\재귀">
+      <UniqueIdentifier>{f3e87928-1c52-4804-ba9c-7e6408425432}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1부터 N까지 출력하는 문제_for문.cpp">
@@ -164,6 +167,18 @@
     </ClCompile>
     <ClCompile Include="Fly me to the Alpha Centauri_수학1.cpp">
       <Filter>소스 파일\수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="팩토리얼_재귀.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치 수 5_재귀.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="별 찍기 - 10.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="하노이 탑 이동 순서_재귀.cpp">
+      <Filter>소스 파일\재귀</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
