@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\재귀">
       <UniqueIdentifier>{f3e87928-1c52-4804-ba9c-7e6408425432}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\브루트포스">
+      <UniqueIdentifier>{7fa98772-5e5d-42ba-a8cd-f5f6a627418c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1부터 N까지 출력하는 문제_for문.cpp">
@@ -179,6 +182,15 @@
     </ClCompile>
     <ClCompile Include="하노이 탑 이동 순서_재귀.cpp">
       <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="블랙잭_브루트포스.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="분해합_브루트포스.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="덩치_브루트포스.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
