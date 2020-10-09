@@ -192,5 +192,14 @@
     <ClCompile Include="덩치_브루트포스.cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
+    <ClCompile Include="체스판 다시 칠하기_브루트포스.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="체스판 다시 칠하기_브루트포스2.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="영화감독 숌_브루트포스.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
