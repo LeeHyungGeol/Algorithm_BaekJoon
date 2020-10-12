@@ -1,5 +1,1 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (백준_if문.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  영화감독 숌_브루트포스.cpp
-C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\영화감독 숌_브루트포스.cpp(13,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\영화감독 숌_브루트포스.cpp(21,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  백준_if문.vcxproj -> C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\Debug\백준_알고리즘문제풀이.exe

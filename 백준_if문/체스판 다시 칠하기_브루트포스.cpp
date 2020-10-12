@@ -35,109 +35,60 @@ int main() {
 	return 0;
 }
 int checkRepaint(int x, int y) {
-	char firstcolor = chessboard[x][y], lastcolor = chessboard[x + 7][y + 7];
-
-	vector<int> vectorcnt;
-	int cnt = 0;
+	int cntW = 0, cntB = 0;
 
 	for (int i = 0; i < 8; ++i) { 
 		for (int j = 0; j < 8; ++j) {
-			if (firstcolor == 'W') {
-				if (i % 2 == 0 && j % 2 == 0) {
-					if (chessboard[x + i][y + j] == 'W')
-						continue;
-					else
-						cnt++;
-				}
-				else if (i % 2 == 1 && j % 2 == 1) {
-					if (chessboard[x + i][y + j] == 'W')
-						continue;
-					else
-						cnt++;
-				}
-				else {
-					if (chessboard[x + i][y + j] == 'B')
-						continue;
-					else
-						cnt++;
-				}
+			if (i % 2 == 0 && j % 2 == 0) {
+				if (chessboard[x + i][y + j] == 'W')
+					continue;
+				else
+					cntW++;
 			}
-			else if (firstcolor == 'B') {
-				if (i % 2 == 0 && j % 2 == 0) {
-					if (chessboard[x + i][y + j] == 'B')
-						continue;
-					else
-						cnt++;
-				}
-				else if (i % 2 == 1 && j % 2 == 1) {
-					if (chessboard[x + i][y + j] == 'B')
-						continue;
-					else
-						cnt++;
-				}
-				else {
-					if (chessboard[x + i][y + j] == 'W')
-						continue;
-					else
-						cnt++;
-				}
+			else if (i % 2 == 1 && j % 2 == 1) {
+				if (chessboard[x + i][y + j] == 'W')
+					continue;
+				else
+					cntW++;
+			}
+			else {
+				if (chessboard[x + i][y + j] == 'B')
+					continue;
+				else
+					cntW++;
 			}
 		}
 		//cout << cnt << '\n';
 	}
 	//cout << cnt << '\n';
-	vectorcnt.push_back(cnt);
-	cnt = 0;
-	for (int i = 7; i >= 0; --i) {
-		for (int j = 7; j >= 0; --j) {
-			if (lastcolor == 'W') {
-				if (i % 2 == 0 && j % 2 == 0) {
-					if (chessboard[x + i][y + j] == 'W')
-						continue;
-					else
-						cnt++;
-				}
-				else if (i % 2 == 1 && j % 2 == 1) {
-					if (chessboard[x + i][y + j] == 'W')
-						continue;
-					else
-						cnt++;
-				}
-				else {
-					if (chessboard[x + i][y + j] == 'B')
-						continue;
-					else
-						cnt++;
-				}
+	
+	for (int i = 0; i < 8; ++i) {
+		for (int j = 0; j < 8; ++j) {
+			if (i % 2 == 0 && j % 2 == 0) {
+				if (chessboard[x + i][y + j] == 'B')
+					continue;
+				else
+					cntB++;
 			}
-			else if (lastcolor == 'B') {
-				if (i % 2 == 0 && j % 2 == 0) {
-					if (chessboard[x + i][y + j] == 'B')
-						continue;
-					else
-						cnt++;
-				}
-				else if (i % 2 == 1 && j % 2 == 1) {
-					if (chessboard[x + i][y + j] == 'B')
-						continue;
-					else
-						cnt++;
-				}
-				else {
-					if (chessboard[x + i][y + j] == 'W')
-						continue;
-					else
-						cnt++;
-				}
+			else if (i % 2 == 1 && j % 2 == 1) {
+				if (chessboard[x + i][y + j] == 'B')
+					continue;
+				else		
+					cntB++;
+			}
+			else {
+				if (chessboard[x + i][y + j] == 'W')
+					continue;
+				else	
+					cntB++;		
 			}
 		}
-		//cout << cnt << '\n';
 	}
-	//cout << cnt << '\n';
-	vectorcnt.push_back(cnt);
-	sort(vectorcnt.begin(), vectorcnt.end());
-
-	return vectorcnt[0];
+	
+	if (cntW > cntB)
+		return cntB;
+	else
+		return cntW;
 }
 //8 8
 //BBBBBBBB

@@ -1,25 +1,41 @@
 #include <iostream>
-#include <vector>
+#include <list>
+#include <map>
 using namespace std;
+
+map<int, int> m;
 
 int main() {
 
-	vector<int> movieName;
-	int N;
+	
+	map<int, int>::iterator iter;
+	list<int> list;
+	int N, i = 1, x = 1, n;
 	cin >> N;
-	if (N == 1) {
-		for (int i = 0; i < 3; ++i)
-			movieName.push_back(6);
-		for (int i = 0; i < movieName.size(); ++i)
-			cout << movieName[i];
-		return 0;
+	m.insert(make_pair(i, 666));
+	while (i <= 10000) {
+		++i;
+		if ((x % 10) != 6) {
+			n = (x * 1000) + 666;
+			m.insert(make_pair(i, n));
+			++x;
+		}
+		else {
+			for (int j = 0; j <= 9; ++j) {
+				n = (x * 1000) + (66 * 10) + j;
+				m.insert(make_pair(i, n));
+				++i;
+			}
+			++x;
+		}
 	}
-	else {
-		movieName.push_back(N - 1);
-		for (int i = 0; i < 3; ++i)
-			movieName.push_back(6);
-		for (int i = 0; i < movieName.size(); ++i)
-			cout << movieName[i];
+
+	cout << m.at(N) << '\n';
+	/*
+	for (iter = m.begin(); iter != m.end(); iter++)
+	{
+		cout << "Key : " << iter->first << "Value : " << iter->second << endl;
 	}
+	*/
 	return 0;
 }
