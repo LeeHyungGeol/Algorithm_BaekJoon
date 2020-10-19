@@ -2,6 +2,11 @@
 #include <vector>
 using namespace std;
 
+//typedef pair<int, int> pii;
+//#define w first
+//#define h second
+//vector<pii> info(50);
+
 vector<int> height, weight;
 int ranking(int index, int n);
 int main() {
@@ -9,6 +14,7 @@ int main() {
 	int N, h, w;
 
 	cin >> N;
+	
 	for (int i = 0; i < N; ++i) {
 		cin >> h >> w;
 		height.push_back(h);

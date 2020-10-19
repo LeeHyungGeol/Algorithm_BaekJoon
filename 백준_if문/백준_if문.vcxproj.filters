@@ -54,9 +54,6 @@
     <ClCompile Include="정렬_수 정렬하기 2_시간 복잡도가 O(nlogn)인 정렬 알고리즘.cpp">
       <Filter>소스 파일\정렬</Filter>
     </ClCompile>
-    <ClCompile Include="정렬_수 정렬하기 3_ 수의 범위가 작다면 카운팅 정렬을 사용하여 더욱 빠르게 정렬.cpp">
-      <Filter>소스 파일\정렬</Filter>
-    </ClCompile>
     <ClCompile Include="if문_두 수 비교하기.cpp">
       <Filter>소스 파일\if문</Filter>
     </ClCompile>
@@ -64,9 +61,6 @@
       <Filter>소스 파일\if문</Filter>
     </ClCompile>
     <ClCompile Include="if문_시험 성적.cpp">
-      <Filter>소스 파일\if문</Filter>
-    </ClCompile>
-    <ClCompile Include="_if문_알람 시계.cpp">
       <Filter>소스 파일\if문</Filter>
     </ClCompile>
     <ClCompile Include="if문_윤년.cpp">
@@ -159,9 +153,6 @@
     <ClCompile Include="브루트포스_블랙잭.cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
-    <ClCompile Include="브루트포스_영화감독 숌.cpp">
-      <Filter>소스 파일\브루트포스</Filter>
-    </ClCompile>
     <ClCompile Include="브루트포스_영화감독 숌%282%29.cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
@@ -215,6 +206,39 @@
     </ClCompile>
     <ClCompile Include="함수%28function%29_한수.cpp">
       <Filter>소스 파일\함수</Filter>
+    </ClCompile>
+    <ClCompile Include="if문_알람 시계.cpp">
+      <Filter>소스 파일\if문</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_수 정렬하기 3(2)_ 수의 범위가 작다면 카운팅 정렬을 사용하여 더욱 빠르게 정렬.cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_통계학_정렬을 활용하는 문제.cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_소트인사이드_숫자를 정렬하는 문제.cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_좌표 정렬하기(2).cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_좌표 정렬하기%28시간초과%29.cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="브루트포스_영화감독 숌%28실패%29.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_수 정렬하기 3%28메모리 초과%29_ 수의 범위가 작다면 카운팅 정렬을 사용하여 더욱 빠르게 정렬.cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_좌표 정렬하기 2_좌표를 다른 순서로 정렬하는 문제.cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_단어 정렬_단어의 순서를 정의하여 정렬하는 문제.cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_나이순 정렬_값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort).cpp">
+      <Filter>소스 파일\정렬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
-#include <iostream>
+// 재귀_factorial 구현 문제
+#include <iostream>	
 using namespace std;
 
 int factorial(int n);
