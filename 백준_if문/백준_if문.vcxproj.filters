@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\정렬">
       <UniqueIdentifier>{278c75de-9b99-4cd2-8e3b-daee56005adb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백트랙킹">
+      <UniqueIdentifier>{7d695db4-22af-4261-9149-afe54405e31a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -239,6 +242,21 @@
     </ClCompile>
     <ClCompile Include="정렬_나이순 정렬_값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort).cpp">
       <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="백트랙킹_N과 M 1.cpp">
+      <Filter>소스 파일\백트랙킹</Filter>
+    </ClCompile>
+    <ClCompile Include="백트랙킹_N과 M 3.cpp">
+      <Filter>소스 파일\백트랙킹</Filter>
+    </ClCompile>
+    <ClCompile Include="백트랙킹_N과 M 4.cpp">
+      <Filter>소스 파일\백트랙킹</Filter>
+    </ClCompile>
+    <ClCompile Include="백트랙킹_N과 M 2.cpp">
+      <Filter>소스 파일\백트랙킹</Filter>
+    </ClCompile>
+    <ClCompile Include="백트랙킹_N-Queen.cpp">
+      <Filter>소스 파일\백트랙킹</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
