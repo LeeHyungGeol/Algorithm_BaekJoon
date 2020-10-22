@@ -3,7 +3,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-bool compare(string a, string b);
+bool compare(const string& a, const string& b);
 int main() {
 	vector<string> v;
 	int N;
@@ -25,7 +25,7 @@ int main() {
 	}
 	return 0;
 }
-bool compare(string a, string b) {
+bool compare(const string& a, const string& b) {
 	if (a.size() == b.size())
 		return a < b;
 	return a.size() < b.size();
