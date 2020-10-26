@@ -261,5 +261,8 @@
     <ClCompile Include="백트랙킹_연산자 끼워넣기.cpp">
       <Filter>소스 파일\백트랙킹</Filter>
     </ClCompile>
+    <ClCompile Include="백트랙킹_연산자 끼워넣기(2).cpp">
+      <Filter>소스 파일\백트랙킹</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

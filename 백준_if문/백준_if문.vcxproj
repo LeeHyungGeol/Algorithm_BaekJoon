@@ -167,6 +167,7 @@
     <ClCompile Include="백트랙킹_N과 M 4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="백트랙킹_연산자 끼워넣기(2).cpp" />
     <ClCompile Include="백트랙킹_연산자 끼워넣기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
