@@ -152,6 +152,25 @@
     <ClCompile Include="for문_A+B를 여러 번 출력하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="동적 계획법 1_1로 만들기_메모이제이션으로 N을 1로 바꾸기 위해 주어진 연산을 몇 번 사용하는지 계산하는 문제.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 1_정수 삼각형_각 층의 모든 칸마다 최댓값을 저장하면서 동적 계획법으로 푸는 문제.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 1_파도반 수열_피보나치 수와 비슷한 규칙을 찾아 동적 계획법으로 푸는 문제.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 1_포도주 시식_규칙에 따라 포도주를 마실 때, 최대로 마실 수 있는 포도주의 양을 구하는 문제.cpp" />
+    <ClCompile Include="동적 계획법 1_피보나치 수 2_동적 계획법으로 피보나치 수를 계산하는 문제.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 1_피보나치 함수(2).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 1_피보나치 함수_단순 재귀로 피보나치 수를 구하면 느린 이유는 함수 호출의 개수가 기하급수적으로 늘어나기 때문.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="백트랙킹_N-Queen.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -167,7 +186,9 @@
     <ClCompile Include="백트랙킹_N과 M 4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="백트랙킹_연산자 끼워넣기(2).cpp" />
+    <ClCompile Include="백트랙킹_연산자 끼워넣기(2).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="백트랙킹_연산자 끼워넣기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
