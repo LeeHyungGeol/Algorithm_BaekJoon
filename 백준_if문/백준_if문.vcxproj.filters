@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\동적 계획법 1">
       <UniqueIdentifier>{e4eccae3-742b-47ea-875a-d8dd8a0d0cc3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\그리디 알고리즘">
+      <UniqueIdentifier>{3736c7b7-2b79-425a-abf8-cff0e2c2e1a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -296,6 +299,18 @@
     </ClCompile>
     <ClCompile Include="동적 계획법 1_쉬운 계단 수.cpp">
       <Filter>소스 파일\동적 계획법 1</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘_동전 0.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘_ATM.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘_잃어버린 괄호.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="그리디 알고리즘_ 회의실배정.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
