@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\그리디 알고리즘">
       <UniqueIdentifier>{3736c7b7-2b79-425a-abf8-cff0e2c2e1a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\스택">
+      <UniqueIdentifier>{9df90cc6-8484-4eb7-a4db-921d47e17058}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -314,6 +317,15 @@
     </ClCompile>
     <ClCompile Include="동적 계획법 1_ LCS(Longest Common Subsequence).cpp">
       <Filter>소스 파일\동적 계획법 1</Filter>
+    </ClCompile>
+    <ClCompile Include="스택_스택_스택의 개념을 익히고 실습하는 문제.cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="스택_괄호_주어진 문자열이 올바른 괄호열인지 판단하는 문제.cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="스택_스택 수열.cpp">
+      <Filter>소스 파일\스택</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
