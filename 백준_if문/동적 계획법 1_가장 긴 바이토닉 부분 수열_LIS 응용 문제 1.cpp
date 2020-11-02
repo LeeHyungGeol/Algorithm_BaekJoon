@@ -20,8 +20,8 @@ int main() {
 		for (int j = 0; j < i; ++j) {
 			if (v[j] < v[i]) {
 				dp[i] = max(dp[i], dp[j] + 1);
-				if (max1 < dp[i])
-					max1 = dp[i];
+				/*if (max1 < dp[i])
+					max1 = dp[i];*/
 			}
 		}
 	}

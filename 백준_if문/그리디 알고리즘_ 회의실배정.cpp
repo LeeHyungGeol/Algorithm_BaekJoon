@@ -22,7 +22,7 @@ int main() {
 	sort(v.begin(), v.end(), compare);
 	/*for (int i = 0; i < N; ++i) {
 		cout << v[i].first << " " << v[i].second << '\n';
-	}*/
+	}*/ //sort함수를 사용했으므로 2차원 배열 필요 없음
 	//for (int i = 0; i < N; ++i) { // O(N^2) 만큼의 시간 복잡도가 생기므로 Online Judge에서 시간 초과가 생긴다.
 	//	for (int j = i; j < N; ++j) {
 	//		if (j == i && v[i].second == v[i].first)

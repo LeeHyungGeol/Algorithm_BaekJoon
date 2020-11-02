@@ -2,12 +2,15 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+
 //bottom-up방식
+long long int dp[1000001] = { 0 }; //d, dp, memo, cache, table 등등..
+
 int main() {
-	long long int dp[1000001] = { 0 }; //d, dp, memo, cache, table 등등..
 	int N;
 	cin >> N;
 	for (int i = 2; i <= N; ++i) {
+		//dp[i] = min(dp[i], dp[i - 1] + 1); //dp의 값들을 초기화 할 때, INF로 설정하면 사용 가능
 		dp[i] = dp[i - 1] + 1;
 		if (i % 3 == 0) {
 			dp[i] = min(dp[i], dp[i / 3] + 1);

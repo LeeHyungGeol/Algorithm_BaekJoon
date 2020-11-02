@@ -312,5 +312,8 @@
     <ClCompile Include="그리디 알고리즘_ 회의실배정.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="동적 계획법 1_ LCS(Longest Common Subsequence).cpp">
+      <Filter>소스 파일\동적 계획법 1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

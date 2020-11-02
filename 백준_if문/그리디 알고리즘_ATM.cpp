@@ -17,6 +17,7 @@ int main() {
 	for (int i = 0; i < N; ++i) {
 		for (int j = 0; j <= i; ++j) {
 			sum += v[j];
+			//sum += v[i]*(N-i); //이렇게 해주면 1차원 배열 사용 가능
 		}
 	}
 	cout << sum << '\n';
