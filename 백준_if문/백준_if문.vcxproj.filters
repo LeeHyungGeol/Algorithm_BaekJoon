@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\스택">
       <UniqueIdentifier>{9df90cc6-8484-4eb7-a4db-921d47e17058}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\큐, 덱">
+      <UniqueIdentifier>{2b5982f0-9b28-44dd-b8f6-df009ddacd7b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -326,6 +329,9 @@
     </ClCompile>
     <ClCompile Include="스택_스택 수열.cpp">
       <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="큐, 덱_카드2_큐를 사용하여 동작을 구현하는 문제.cpp">
+      <Filter>소스 파일\큐, 덱</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

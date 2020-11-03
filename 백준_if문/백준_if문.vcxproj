@@ -273,7 +273,9 @@
     <ClCompile Include="스택_괄호_주어진 문자열이 올바른 괄호열인지 판단하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="스택_스택 수열.cpp" />
+    <ClCompile Include="스택_스택 수열.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="스택_스택_스택의 개념을 익히고 실습하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -331,6 +333,7 @@
     <ClCompile Include="정렬_통계학_정렬을 활용하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="큐, 덱_카드2_큐를 사용하여 동작을 구현하는 문제.cpp" />
     <ClCompile Include="함수_셀프 넘버.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
