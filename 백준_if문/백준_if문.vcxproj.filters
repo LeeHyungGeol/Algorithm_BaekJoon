@@ -333,5 +333,8 @@
     <ClCompile Include="큐, 덱_카드2_큐를 사용하여 동작을 구현하는 문제.cpp">
       <Filter>소스 파일\큐, 덱</Filter>
     </ClCompile>
+    <ClCompile Include="큐 덱_프린터 큐.cpp">
+      <Filter>소스 파일\큐, 덱</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

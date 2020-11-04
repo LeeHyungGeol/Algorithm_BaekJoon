@@ -1,3 +1,3 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (백준_if문.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  큐, 덱_카드2_큐를 사용하여 동작을 구현하는 문제.cpp
+  큐 덱_프린터 큐.cpp
   백준_if문.vcxproj -> C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\Debug\백준_알고리즘문제풀이.exe
