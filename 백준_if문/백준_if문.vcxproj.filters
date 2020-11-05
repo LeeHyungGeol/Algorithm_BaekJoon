@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\큐, 덱">
       <UniqueIdentifier>{2b5982f0-9b28-44dd-b8f6-df009ddacd7b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\분할 정복">
+      <UniqueIdentifier>{9e05c94c-0a86-451f-ae2c-fba0bc7e5704}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -334,6 +337,9 @@
       <Filter>소스 파일\큐, 덱</Filter>
     </ClCompile>
     <ClCompile Include="큐 덱_프린터 큐.cpp">
+      <Filter>소스 파일\큐, 덱</Filter>
+    </ClCompile>
+    <ClCompile Include="큐, 덱_회전하는 큐.cpp">
       <Filter>소스 파일\큐, 덱</Filter>
     </ClCompile>
   </ItemGroup>
