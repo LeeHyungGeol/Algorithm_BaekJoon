@@ -16,14 +16,26 @@ int main() {
 	cout << answer << '\n';
 	return 0;
 }
+//long long int divideAndConquer(int a, int b, int c) {
+//	if (b == 0)
+//		return 1;
+//	if (b % 2 == 1)
+//		return (a * (divideAndConquer(a, b - 1, c))) % c;
+//	else {
+//		long long int half = divideAndConquer(a, b / 2,c);
+//		return (half * half) % c;
+//	}
+//}
 long long int divideAndConquer(int a, int b, int c) {
 	if (b == 0)
 		return 1;
+	if (b == 1)
+		return a % c;
 	if (b % 2 == 1)
-		return (a * (divideAndConquer(a, b - 1, c))) % c;
+		return ((a % c) * ((divideAndConquer(a, b - 1, c)) % c)) % c;
 	else {
-		long long int half = divideAndConquer(a, b / 2,c);
-		return (half * half) % c;
+		long long int half = divideAndConquer(a, b / 2, c);
+		return ((half % c) * (half % c)) % c;
 	}
 }
 
