@@ -342,5 +342,17 @@
     <ClCompile Include="큐, 덱_회전하는 큐.cpp">
       <Filter>소스 파일\큐, 덱</Filter>
     </ClCompile>
+    <ClCompile Include="분할 정복_색종이 만들기_쿼드트리를 만드는 문제.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복_쿼드 트리_쿼드트리를 문자열로 바꾸는 문제.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복_곱셈_분할 정복으로 거듭제곱을 빠르게 계산하는 문제.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복_행렬 곱셈.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

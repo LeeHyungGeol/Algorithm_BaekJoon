@@ -8,7 +8,6 @@ int main() {
 	int N, M, x, cnt1 = 0, cnt2 = 0, answer = 0;
 	cin >> N >> M;
 	deque<pair<int, int>> dq;
-	//int arr[51] = { 0 };
 	
 	for (int i = 1; i <= N; ++i) {
 		dq.push_back(make_pair(i, i)); // i: index, x: num
