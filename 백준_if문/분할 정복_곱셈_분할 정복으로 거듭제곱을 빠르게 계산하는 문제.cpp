@@ -19,9 +19,9 @@ int main() {
 //long long int divideAndConquer(int a, int b, int c) {
 //	if (b == 0)
 //		return 1;
-//	if (b % 2 == 1)
+//	if (b % 2 == 1)//È¦¼ö½Â
 //		return (a * (divideAndConquer(a, b - 1, c))) % c;
-//	else {
+//	else {//Â¦¼ö½Â
 //		long long int half = divideAndConquer(a, b / 2, c);
 //		return (half * half) % c;
 //	}

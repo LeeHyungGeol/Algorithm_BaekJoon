@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 char arr[65][65];
 void divideAndConquer(int y, int x, int n);
@@ -13,8 +14,9 @@ int main() {
 			cin >> arr[i][j];
 		}
 	}
+	
 	divideAndConquer(1, 1, N);
-
+	cout << '\n';
 
 	return 0;
 }
