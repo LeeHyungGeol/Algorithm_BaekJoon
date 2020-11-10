@@ -354,7 +354,13 @@
     <ClCompile Include="분할 정복_행렬 곱셈.cpp">
       <Filter>소스 파일\분할 정복</Filter>
     </ClCompile>
-    <ClCompile Include="분할 정복_피보나치 수_행렬 곱셈을 응용해 피보나치 수를 구하는 문제.cpp">
+    <ClCompile Include="분할 정복_피보나치 수 3_행렬 곱셈을 응용해 피보나치 수를 구하는 문제.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복_행렬 제곱_분할 정복으로 행렬의 거듭제곱을 빠르게 계산하는 문제.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="분할 정복_가장 가까운 두 점.cpp">
       <Filter>소스 파일\분할 정복</Filter>
     </ClCompile>
   </ItemGroup>

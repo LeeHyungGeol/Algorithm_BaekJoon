@@ -220,6 +220,7 @@
     <ClCompile Include="백트랙킹_연산자 끼워넣기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="분할 정복_가장 가까운 두 점.cpp" />
     <ClCompile Include="분할 정복_곱셈_분할 정복으로 거듭제곱을 빠르게 계산하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -229,8 +230,13 @@
     <ClCompile Include="분할 정복_쿼드 트리_쿼드트리를 문자열로 바꾸는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="분할 정복_피보나치 수_행렬 곱셈을 응용해 피보나치 수를 구하는 문제.cpp" />
+    <ClCompile Include="분할 정복_피보나치 수 3_행렬 곱셈을 응용해 피보나치 수를 구하는 문제.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="분할 정복_행렬 곱셈.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="분할 정복_행렬 제곱_분할 정복으로 행렬의 거듭제곱을 빠르게 계산하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="수학1_ACM 호텔.cpp">

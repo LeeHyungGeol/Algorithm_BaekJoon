@@ -22,7 +22,7 @@ int main() {
 //	if (b % 2 == 1)
 //		return (a * (divideAndConquer(a, b - 1, c))) % c;
 //	else {
-//		long long int half = divideAndConquer(a, b / 2,c);
+//		long long int half = divideAndConquer(a, b / 2, c);
 //		return (half * half) % c;
 //	}
 //}
