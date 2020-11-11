@@ -7,6 +7,9 @@
 //오른쪽과 왼쪽에 대해서 가장 가까운 두 점 상의 거리를 찾습니다.
 //그리고 가운데 중심점을 기준으로 오른쪽과 왼쪽에 대해서 각각 찾은 가장 가까운 두 점 사이 거리 중 작은 것에 대해 
 //그 거리 만큼 x, y축안에 존재하는 점들에 대해 이보다 더 가까운 점들이 존재하는지 검사합니다.
+
+//라인 스위핑으로도 풀어보기!!!
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -38,12 +41,7 @@ int divideAndConquer(int first, int last) {
 	if ((last - first) == 1)//점이 2개일 때
 		return dist(varr[first], varr[last]);
 	if ((last - first) == 2)//점이 3개일 때
-		return min(
-				dist(varr[first], varr[first + 1]),
-
-			min(dist(varr[first + 1], varr[first + 2]), 
-
-				dist(varr[first], varr[first + 2])));
+		return min(dist(varr[first], varr[first + 1]), min(dist(varr[first + 1], varr[first + 2]), dist(varr[first], varr[first + 2])));
 
 	int mid = (int)(last + first) / 2; //중간 점(기준선) 잡기
 	int dl = divideAndConquer(first, mid); //중간 점 기준 왼쪽의 최소거리

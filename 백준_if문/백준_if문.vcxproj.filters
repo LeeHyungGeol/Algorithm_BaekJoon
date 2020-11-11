@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\분할 정복">
       <UniqueIdentifier>{9e05c94c-0a86-451f-ae2c-fba0bc7e5704}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\이분 탐색">
+      <UniqueIdentifier>{af329e7a-1975-45a9-b90c-3d830e21e61d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -362,6 +365,21 @@
     </ClCompile>
     <ClCompile Include="분할 정복_가장 가까운 두 점.cpp">
       <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색_수 찾기_countByRange%28정렬 필요%29.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색_숫자 카드 2_countByRange(정렬 필요).cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색_랜선 자르기.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색_숫자 카드 2_countByValue%28정렬 필요%29.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이분 탐색_수 찾기_countByValue%28정렬 필요%29.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
