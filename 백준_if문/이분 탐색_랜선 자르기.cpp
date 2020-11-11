@@ -26,8 +26,8 @@ int main() {
 		}
 		if (cnt < N)
 			end = mid - 1;
-		else {
-			result = mid;
+		else { //N개보다 많이 만드는 것도 N개를 만드는 것에 포함된다. 이것이 문제의 조건이었기 때문에, cnt의 값이 N 이상이면 된다.
+			result = mid; //따라서 else if(cnt==N)의 조건문은 필요없다.
 			start = mid + 1;
 		}
 	}

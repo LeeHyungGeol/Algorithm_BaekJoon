@@ -301,8 +301,12 @@
     <ClCompile Include="스택_스택_스택의 개념을 익히고 실습하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="이분 탐색_공유기 설치_이분 탐색을 응용하여 최솟값이나 최댓값을 찾는 문제 3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="이분 탐색_나무 자르기_이분 탐색을 응용하여 최솟값이나 최댓값을 찾는 문제 2.cpp" />
     <ClCompile Include="이분 탐색_랜선 자르기.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="이분 탐색_수 찾기_countByRange%28정렬 필요%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>

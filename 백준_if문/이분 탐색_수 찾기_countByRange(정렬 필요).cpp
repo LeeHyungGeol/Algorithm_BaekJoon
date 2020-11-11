@@ -25,6 +25,7 @@ int main() {
 	}
 	
 	for (int i = 0; i < M; ++i) {
+		// 값이 [x, x] 범위에 있는 데이터의 개수 계산
 		if (countByRange(v1, v2[i], v2[i]) != 0)
 			cout << "1"<< '\n';
 		else

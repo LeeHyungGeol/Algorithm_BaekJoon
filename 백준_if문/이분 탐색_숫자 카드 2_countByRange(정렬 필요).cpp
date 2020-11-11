@@ -21,6 +21,7 @@ int main() {
 	cin >> M;
 	for (int i = 0; i < M; ++i) {
 		cin >> x;
+		// 값이 [x, x] 범위에 있는 데이터의 개수 계산
 		if (countByRange(v, x, x) != 0)
 			cout << countByRange(v, x, x) << ' ';
 		else
