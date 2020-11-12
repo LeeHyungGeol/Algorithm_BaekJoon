@@ -54,7 +54,6 @@ int first(vector<int>& v, int target, int start, int end) {
 		return first(v, target, start, mid - 1);
 	else
 		return first(v, target, mid + 1, end);
-
 }
 //int last(vector<int>& v, int target, int start, int end) {
 //	if (start > end)

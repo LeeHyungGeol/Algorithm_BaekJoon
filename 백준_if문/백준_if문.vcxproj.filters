@@ -387,5 +387,8 @@
     <ClCompile Include="이분 탐색_나무 자르기_이분 탐색을 응용하여 최솟값이나 최댓값을 찾는 문제 2.cpp">
       <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
+    <ClCompile Include="이분 탐색_ 가장 긴 증가하는 부분 수열 2.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
