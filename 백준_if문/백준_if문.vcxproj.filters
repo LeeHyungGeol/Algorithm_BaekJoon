@@ -390,5 +390,8 @@
     <ClCompile Include="이분 탐색_ 가장 긴 증가하는 부분 수열 2.cpp">
       <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
+    <ClCompile Include="이분 탐색_K번째 수.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
