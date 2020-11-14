@@ -301,10 +301,22 @@
     <ClCompile Include="스택_스택_스택의 개념을 익히고 실습하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="우선순위 큐_가운데를 말해요_우선순위 큐를 응용하여 중앙값을 빠르게 찾는 문제.cpp" />
+    <ClCompile Include="우선순위 큐_절댓값 힙.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐_최대 힙.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐_최소 힙.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="이분 탐색_ 가장 긴 증가하는 부분 수열 2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="이분 탐색_K번째 수.cpp" />
+    <ClCompile Include="이분 탐색_K번째 수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="이분 탐색_공유기 설치_이분 탐색을 응용하여 최솟값이나 최댓값을 찾는 문제 3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\이분 탐색">
       <UniqueIdentifier>{af329e7a-1975-45a9-b90c-3d830e21e61d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\우선순위 큐">
+      <UniqueIdentifier>{aba61d9f-c7f1-4dca-b7a1-f4ac2f63115b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -392,6 +395,18 @@
     </ClCompile>
     <ClCompile Include="이분 탐색_K번째 수.cpp">
       <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐_최소 힙.cpp">
+      <Filter>소스 파일\우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐_최대 힙.cpp">
+      <Filter>소스 파일\우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐_절댓값 힙.cpp">
+      <Filter>소스 파일\우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="우선순위 큐_가운데를 말해요_우선순위 큐를 응용하여 중앙값을 빠르게 찾는 문제.cpp">
+      <Filter>소스 파일\우선순위 큐</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

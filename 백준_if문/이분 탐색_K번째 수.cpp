@@ -1,5 +1,7 @@
 //의외로 이분 탐색으로 풀 수 있는 놀라운 문제 1 == 생각하기 정말 어려운 문제
 //https://steady-coding.tistory.com/20
+//- 파라매트릭 서치는 이분 탐색과 매우 유사하다.
+//-이때 이분 탐색 문제와 차이점을 말하자면 결정 문제인지 아닌지의 차이이다.
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -16,7 +18,7 @@ int main() {
 		int cnt = 0;
 		int mid = (start + end) / 2;
 		for (int i = 1; i <= N; ++i) {
-			cnt += min(mid / i, N); // .mid보다 작은 숫자의 갯수를 더한다. mid에다가 각 행의 숫자(i)를 나눈다. 다만 몫이 N보다 큰 경우가 있기 때문에 min함수를 사용한다.
+			cnt += min(mid / i, N); // mid보다 작은 숫자의 갯수를 더한다. mid에다가 각 행의 숫자(i)를 나눈다. 다만 몫이 N보다 큰 경우가 있기 때문에 min함수를 사용한다.
 		}
 		if (cnt < K)
 			start = mid + 1;
