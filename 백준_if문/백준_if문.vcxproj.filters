@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\우선순위 큐">
       <UniqueIdentifier>{aba61d9f-c7f1-4dca-b7a1-f4ac2f63115b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\동적 계획법 2">
+      <UniqueIdentifier>{103cdf99-b58a-4b82-99de-70846f26f361}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -407,6 +410,12 @@
     </ClCompile>
     <ClCompile Include="우선순위 큐_가운데를 말해요_우선순위 큐를 응용하여 중앙값을 빠르게 찾는 문제.cpp">
       <Filter>소스 파일\우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2_파일 합치기.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2_내리막 길.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

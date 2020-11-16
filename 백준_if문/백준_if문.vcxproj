@@ -199,6 +199,12 @@
     <ClCompile Include="동적 계획법 1_피보나치 함수_단순 재귀로 피보나치 수를 구하면 느린 이유는 함수 호출의 개수가 기하급수적으로 늘어나기 때문.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="동적 계획법 2_내리막 길.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2_파일 합치기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="백트랙킹_N-Queen.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -301,7 +307,9 @@
     <ClCompile Include="스택_스택_스택의 개념을 익히고 실습하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="우선순위 큐_가운데를 말해요_우선순위 큐를 응용하여 중앙값을 빠르게 찾는 문제.cpp" />
+    <ClCompile Include="우선순위 큐_가운데를 말해요_우선순위 큐를 응용하여 중앙값을 빠르게 찾는 문제.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="우선순위 큐_절댓값 힙.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

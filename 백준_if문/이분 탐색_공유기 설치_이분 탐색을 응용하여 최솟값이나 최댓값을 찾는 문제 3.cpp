@@ -18,6 +18,7 @@ int main() {
 		v.push_back(x);
 	}
 	sort(v.begin(), v.end());
+
 	int start = 1; //v[1] - v[0];
 	int end = v.back();
 	//int end = v[N - 1] - v[0]; //구하고자 하는 값은 최대"간격" -> "두 점 사이의 거리"이므로 '좌표 값 - 좌표 값'

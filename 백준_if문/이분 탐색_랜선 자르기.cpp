@@ -4,6 +4,7 @@
 //'원하는 조건을 만족하는 가장 알맞은 값을 찾는 문제'에 파라메트릭 서치(parametric search)를 사용한다.
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main() {
@@ -15,20 +16,23 @@ int main() {
 		cin >> x;
 		v.push_back(x);
 	}
-	long long int start = 0, end = 2147483647;//2^31-1
+	sort(v.begin(), v.end());
+	long long int start = 0, end = v[K-1];//2^31-1
 	long long int mid = 0, cnt = 0, result = 0;
 
 	while (start <= end) {
 		cnt = 0;
 		mid = (start + end) / 2;
+		cout << start << " " << mid << " " << end << '\n';
 		for (int i = 0; i < K; ++i) {
 			cnt += (v[i] / mid);
 		}
-		if (cnt < N)
+		cout << cnt << '\n';
+		if (cnt < N)//아니오
 			end = mid - 1;
 		else { //N개보다 많이 만드는 것도 N개를 만드는 것에 포함된다. 이것이 문제의 조건이었기 때문에, cnt의 값이 N 이상이면 된다.
 			result = mid; //따라서 else if(cnt==N)의 조건문은 필요없다.
-			start = mid + 1;
+			start = mid + 1;//예
 		}
 	}
 	cout << result << '\n';
