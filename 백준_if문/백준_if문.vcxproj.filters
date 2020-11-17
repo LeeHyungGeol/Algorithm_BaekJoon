@@ -417,5 +417,8 @@
     <ClCompile Include="동적 계획법 2_내리막 길.cpp">
       <Filter>소스 파일\동적 계획법 2</Filter>
     </ClCompile>
+    <ClCompile Include="동적 계획법 2_동전 1.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

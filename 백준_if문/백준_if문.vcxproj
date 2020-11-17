@@ -202,6 +202,7 @@
     <ClCompile Include="동적 계획법 2_내리막 길.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="동적 계획법 2_동전 1.cpp" />
     <ClCompile Include="동적 계획법 2_파일 합치기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
