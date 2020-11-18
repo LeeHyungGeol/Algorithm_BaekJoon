@@ -1,3 +1,7 @@
+//다이나믹 프로그래밍(Dynamic Programming): 동적 계획법 - "중복되는 연산을 줄이자"
+// 1. 큰 문제를 작은 문제로 나눌 수 있다.
+// 2. 작은 문제에서 구한 정답은 그것을 포함하는 큰 문제에서도 동일하다.
+
 //내리막길로만 이동하는 경우의 수를 구하는 문제
 //https://sihyungyou.github.io/baekjoon-1520/
 //https://wootool.tistory.com/83

@@ -420,5 +420,11 @@
     <ClCompile Include="동적 계획법 2_동전 1.cpp">
       <Filter>소스 파일\동적 계획법 2</Filter>
     </ClCompile>
+    <ClCompile Include="동적 계획법 2_설탕 배달.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 2_행렬 곱셈 순서.cpp">
+      <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
