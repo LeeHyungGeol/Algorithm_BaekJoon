@@ -23,7 +23,7 @@ int main() {
 		sum += m[i];
 	}
 	vector<long long int> dp(N * sum, 0);
-	for (int i = 1; i <= N; ++i) {
+	for (int i = 1; i <= N; ++i) { //index: 비용(cost)(m[i]), dp[i]: 앱 메모리(app[i]) 
 		for (int j = sum; j >= m[i]; --j) {
 			if (j - m[i] >= 0)
 				dp[j] = max(dp[j], dp[j - m[i]] + app[i]);
@@ -35,7 +35,7 @@ int main() {
 				dp[j] = max(dp[j], dp[j - app[i]] + m[i]);
 		}
 	}*/
-	for (int i = 1; i <= sum; ++i) {
+	for (int i = 1; i <= sum; ++i) { 
 		if (dp[i] >= M) {
 			cout << i << '\n';
 			break;

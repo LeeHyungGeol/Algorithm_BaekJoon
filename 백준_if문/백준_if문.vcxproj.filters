@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\동적 계획법 2">
       <UniqueIdentifier>{103cdf99-b58a-4b82-99de-70846f26f361}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DFS, BFS">
+      <UniqueIdentifier>{393336d3-f3f3-427b-b59d-0cbd10afbc8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -428,6 +431,21 @@
     </ClCompile>
     <ClCompile Include="동적 계획법 2_앱.cpp">
       <Filter>소스 파일\동적 계획법 2</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS_ DFS와 BFS.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS_인접 행렬 구현(예시).cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS_인접 리스트 구현(예시).cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS_DFS 구현.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS_BFS 구현.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
