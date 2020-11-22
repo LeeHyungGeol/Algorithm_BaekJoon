@@ -6,7 +6,6 @@ using namespace std;
 
 bool visitedDFS[1001];
 bool visitedBFS[1001];
-//vector<int> graphBFS[1001];
 void dfs(int v, vector<vector<int>>& graph);
 void bfs(int start, vector<vector<int>>& graph);
 
