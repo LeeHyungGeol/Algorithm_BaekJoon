@@ -450,7 +450,16 @@
     <ClCompile Include="DFS와 BFS_단지번호붙이기_ConnectedComponents 구현.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
-    <ClCompile Include="BFS와 DFS_미로 탐색.cpp">
+    <ClCompile Include="DFS와 BFS_토마토_3차원 버전.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS_토마토(2번째 풀이)_3차원 버전.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS_벽 부수고 이동하기.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와 BFS_미로 탐색.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
   </ItemGroup>
