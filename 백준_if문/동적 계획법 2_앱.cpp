@@ -40,7 +40,8 @@ int main() {
 			cout << i << '\n';
 			break;
 		}
+		//cout << " i : " << i << " dp[i] : " << dp[i] << '\n';
 	}
-
+	
 	return 0;
 }

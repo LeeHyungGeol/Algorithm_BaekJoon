@@ -17,12 +17,13 @@ int main() {
 		arr.push_back(x);
 	}
 	vector<int> dp(k + 1, 0);
-	dp[0] = 1;//동전들을 사용해서 0원을 만들 수 있는 경우는 몇 가지 -> 아무런 동전도 사용하지 않는 1가지 방법이 있다.
+	dp[0] = 1;// 자기자신 만큼의 가치를 만들어내는 경우 인덱스가 0이 되어서 1로 미리 초기화.
 	for (int i = 0; i < n; ++i) {
 		for (int j = arr[i]; j <= k; ++j) {
-			//if (j >= arr[i])
+			if (j >= arr[i])
 				dp[j] += dp[j - arr[i]];
 		}
+
 	}
 	cout << dp[k] << '\n';
 	return 0;
