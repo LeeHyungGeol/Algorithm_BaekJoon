@@ -3,9 +3,13 @@
 #include <queue>
 #define INF 1e9 // 무한을 의미하는 값으로 10억을 설정
 
+//그리디 알고리즘: 매 상황에서 방문하지 않은 가장 비용이 적은 노드를 선택해 임의의 과정을 반복한다.
+//한번 방문하여 처리된 노드의 최단 거리는 고정되어 더이상 바뀌지 않는다.
 using namespace std;
 
-//시간: O(ElogE)
+
+//시간: O(ElogE) : 중복 간선을 포함하지 않은 경우에, O(ElogV)
+
 
 // 노드의 개수(N), 간선의 개수(M), 시작 노드 번호(Start)
 // 노드의 개수는 최대 100,000개라고 가정
@@ -37,7 +41,7 @@ void dijkstra(int start) {
         for (int i = 0; i < graph[now].size(); i++) {
             int cost = dist + graph[now][i].second;
             // 현재 노드를 거쳐서, 다른 노드로 이동하는 거리가 더 짧은 경우
-            if (cost < d[graph[now][i].first]) {
+            if (cost < d[graph[now][i].first]) {//한번 방문하여 처리된 노드의 최단 거리는 고정되어 더이상 바뀌지 않는다.
                 d[graph[now][i].first] = cost;
                 //pq.push(make_pair(-cost, graph[now][i].first));
                 pq.push(make_pair(cost, graph[now][i].first));

@@ -2,6 +2,8 @@
 #include <vector>
 #define INF 1e9 // 무한을 의미하는 값으로 10억을 설정
 
+//그리디 알고리즘: 매 상황에서 방문하지 않은 가장 비용이 적은 노드를 선택해 임의의 과정을 반복한다.
+//한번 방문하여 처리된 노드의 최단 거리는 고정되어 더이상 바뀌지 않는다.
 using namespace std;
 
 //시간 : O(V^2)
@@ -42,7 +44,7 @@ void dijkstra(int start) {
         int now = getSmallestNode();
         visited[now] = true;
         // 현재 노드와 연결된 다른 노드를 확인
-        for (int j = 0; j < graph[now].size(); j++) {
+        for (int j = 0; j < graph[now].size(); j++) {//한번 방문하여 처리된 노드의 최단 거리는 고정되어 더이상 바뀌지 않는다.
             int cost = d[now] + graph[now][j].second;
             // 현재 노드를 거쳐서 다른 노드로 이동하는 거리가 더 짧은 경우
             if (cost < d[graph[now][j].first]) {
