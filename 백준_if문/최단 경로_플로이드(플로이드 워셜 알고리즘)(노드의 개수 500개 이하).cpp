@@ -14,7 +14,7 @@ int main() {
 	cin >> n >> m;
 
 	//init(초기화)
-	for (int i = 0; i < 101; ++i) {
+	for (int i = 0; i <= n; ++i) {
 		fill(graph[i], graph[i] + 101, INF);
 	}
 	for (int i = 1; i <= n; ++i) {
@@ -23,6 +23,15 @@ int main() {
 				graph[i][j] = 0;
 		}
 	}
+
+	//for (int i = 0; i <= V; ++i) {
+	//	for (int j = 0; j <= V; ++j) {
+	//		if (i == j)
+	//			graph[i][j] = 0;
+	//		else
+	//			graph[i][j] = INF;
+	//	}
+	//}
 
 	int a, b, c;
 	//input(입력)
