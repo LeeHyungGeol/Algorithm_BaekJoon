@@ -73,9 +73,10 @@ void DijkstraDP() {
 					//따라서 현재 cost값보다 큰 부분에서 현재 dist보다 크다면 다 덮어써주면 가지치기를 하는 효과를 얻을 수 있다.
 					// 최적화 부분 - 시작
 					for (int j = next_cost + 1; j <= M; j++) {
-						if (dist[next][j] <= next_dist) 
+						if (dist[next][j] > next_dist)
+							dist[next][j] = next_dist;
+						else
 							break;
-						dist[next][j] = next_dist;
 					}
 					// 최적화 부분 - 끝
 

@@ -248,6 +248,7 @@
     <ClCompile Include="동적 계획법 2_행렬 곱셈 순서.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="동적 계획법 3_집합(비트마스크).cpp" />
     <ClCompile Include="백트랙킹_N-Queen.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -443,7 +444,9 @@
     <ClCompile Include="정렬_통계학_정렬을 활용하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="최단 경로_KCM Travel(다익스트라 + Dynamic Programming).cpp" />
+    <ClCompile Include="최단 경로_KCM Travel(다익스트라 + Dynamic Programming).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="최단 경로_다익스트라 알고리즘%28노드의 개수 1만개 이상%29%28우선순위 큐%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

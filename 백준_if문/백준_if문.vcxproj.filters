@@ -76,6 +76,9 @@
     <Filter Include="소스 파일\최단 경로">
       <UniqueIdentifier>{96d35cd1-edf5-48b4-b51b-135e8260eb47}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\동적 계획법 3">
+      <UniqueIdentifier>{24d02ecc-33ea-4b59-ba14-5de48304d2cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -488,6 +491,9 @@
     </ClCompile>
     <ClCompile Include="최단 경로_KCM Travel(다익스트라 + Dynamic Programming).cpp">
       <Filter>소스 파일\최단 경로</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 3_집합(비트마스크).cpp">
+      <Filter>소스 파일\동적 계획법 3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
