@@ -495,5 +495,11 @@
     <ClCompile Include="동적 계획법 3_집합(비트마스크).cpp">
       <Filter>소스 파일\동적 계획법 3</Filter>
     </ClCompile>
+    <ClCompile Include="동적 계획법 3_ 외판원 순회(비트마스크 DP).cpp">
+      <Filter>소스 파일\동적 계획법 3</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 3_RGB거리 2.cpp">
+      <Filter>소스 파일\동적 계획법 3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

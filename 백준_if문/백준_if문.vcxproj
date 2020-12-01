@@ -248,7 +248,13 @@
     <ClCompile Include="동적 계획법 2_행렬 곱셈 순서.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="동적 계획법 3_집합(비트마스크).cpp" />
+    <ClCompile Include="동적 계획법 3_ 외판원 순회(비트마스크 DP).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 3_RGB거리 2.cpp" />
+    <ClCompile Include="동적 계획법 3_집합(비트마스크).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="백트랙킹_N-Queen.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
