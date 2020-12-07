@@ -79,6 +79,9 @@
     <Filter Include="소스 파일\동적 계획법 3">
       <UniqueIdentifier>{24d02ecc-33ea-4b59-ba14-5de48304d2cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\동적 계획법과 최단거리 역추적">
+      <UniqueIdentifier>{ab010c71-d445-4908-b4df-03b8f61f52b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -495,11 +498,23 @@
     <ClCompile Include="동적 계획법 3_집합(비트마스크).cpp">
       <Filter>소스 파일\동적 계획법 3</Filter>
     </ClCompile>
-    <ClCompile Include="동적 계획법 3_ 외판원 순회(비트마스크 DP).cpp">
-      <Filter>소스 파일\동적 계획법 3</Filter>
-    </ClCompile>
     <ClCompile Include="동적 계획법 3_RGB거리 2.cpp">
       <Filter>소스 파일\동적 계획법 3</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 3_외판원 순회%28비트마스크 DP%29.cpp">
+      <Filter>소스 파일\동적 계획법 3</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 3_박성원%28비트마스크 DP 응옹%29.cpp">
+      <Filter>소스 파일\동적 계획법 3</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법 3_색상환.cpp">
+      <Filter>소스 파일\동적 계획법 3</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법과 최단거리 역추적_1로 만들기 2.cpp">
+      <Filter>소스 파일\동적 계획법과 최단거리 역추적</Filter>
+    </ClCompile>
+    <ClCompile Include="동적 계획법과 최단거리 역추척_가장 긴 증가하는 부분 수열 5.cpp">
+      <Filter>소스 파일\동적 계획법과 최단거리 역추적</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

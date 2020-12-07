@@ -14,7 +14,8 @@ int main() {
 			cin >> RGB[i][j];
 		}
 	}
-	int answer = INF;
+	int answer = INF;//
+	
 	for (int first = 0; first < 3; ++first) {
 
 		dp[1][0] = INF;//red

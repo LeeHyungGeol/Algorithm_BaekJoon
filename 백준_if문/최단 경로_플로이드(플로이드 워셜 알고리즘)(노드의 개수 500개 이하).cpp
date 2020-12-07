@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 #define INF 1e9 //10억
-
+#define FOR(i, b, e) for(int i=b;i<e;++i)
 //시간 : O(N^3)
 //플로이드 워셜 알고리즘을 사용해야 하는 경우 노드의 개수는 최대 500개
 
