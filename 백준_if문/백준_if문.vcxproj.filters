@@ -519,5 +519,8 @@
     <ClCompile Include="동적 계획법과 최단거리 역추적_경찰차.cpp">
       <Filter>소스 파일\동적 계획법과 최단거리 역추적</Filter>
     </ClCompile>
+    <ClCompile Include="동적 계획법과 최단거리 역추적_DSLR.cpp">
+      <Filter>소스 파일\동적 계획법과 최단거리 역추적</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
