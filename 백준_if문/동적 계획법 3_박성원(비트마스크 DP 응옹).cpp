@@ -48,10 +48,8 @@ int main() {
 }
 ll func(int visited, int mod) {
 	if ((1 << N) - 1 == visited) {
-		if (mod == 0)
-			return 1;
-		else
-			return 0;
+		if (mod == 0) return 1;
+		else return 0;
 	}
 
 	//ll& ret = dp[visited][mod];
@@ -61,11 +59,8 @@ ll func(int visited, int mod) {
 	dp[visited][mod] = 0;
 	for (int i = 0; i < N; ++i) {
 		if (!(visited & (1 << i))) { // 0 <= mod < K //mod : ¿ø·¡¼ö
-			cout << "mod : " << mod << '\n';
 			int x = (mod * digit[len[i]] + num[i]) % K;
-			cout << "x : " << x << '\n';
 			dp[visited][mod] += func(visited | (1 << i), x);
-			cout <<"dp[visited][mod] : "<< dp[visited][mod] << '\n';
 		}
 	}
 	return dp[visited][mod];
