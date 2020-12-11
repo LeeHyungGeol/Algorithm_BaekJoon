@@ -16,7 +16,6 @@ using namespace std;
 int dp[1001][1001] = { 0 };
 
 int main() {
-	int maxlength = 0; 
 	string str1, str2;
 	cin >> str1 >> str2;
 

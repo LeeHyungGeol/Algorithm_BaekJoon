@@ -1,3 +1,19 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (백준_if문.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  동적 계획법 3_색상환.cpp
+  동적 계획법과 최단거리 역추적_최소비용 구하기 2.cpp
+C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\동적 계획법과 최단거리 역추적_최소비용 구하기 2.cpp(54,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(3814,24): warning C4244: '=': 'const _Ty'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\동적 계획법과 최단거리 역추적_최소비용 구하기 2.cpp(24): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::fill<int*,double>(const _FwdIt,const _FwdIt,const _Ty &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _FwdIt=int *,
+              _Ty=double
+          ]
   백준_if문.vcxproj -> C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\Debug\백준_알고리즘문제풀이.exe

@@ -61,7 +61,7 @@ void bfs(int start, int end) {
 	}
 }
 int D(int N) {
-	return (N * 2) % mod;//modulo 여산은 몇번을 수행해도 상관없다.
+	return (N * 2) % mod;//modulo 연산은 몇번을 수행해도 상관없다.
 }
 int S(int N) {
 	return N - 1 < 0 ? 9999 : N - 1;
