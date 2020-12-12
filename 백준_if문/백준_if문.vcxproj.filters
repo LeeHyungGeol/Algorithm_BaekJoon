@@ -82,6 +82,9 @@
     <Filter Include="소스 파일\동적 계획법과 최단거리 역추적">
       <UniqueIdentifier>{ab010c71-d445-4908-b4df-03b8f61f52b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\트리">
+      <UniqueIdentifier>{ad074167-0e7c-4957-a676-ade53d28f23a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -533,6 +536,12 @@
     </ClCompile>
     <ClCompile Include="동적 계획법과 최단거리 역추적_최소비용 구하기 2.cpp">
       <Filter>소스 파일\동적 계획법과 최단거리 역추적</Filter>
+    </ClCompile>
+    <ClCompile Include="트리_ 트리의 부모 찾기.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리_트리의 지름.cpp">
+      <Filter>소스 파일\트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
