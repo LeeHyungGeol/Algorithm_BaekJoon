@@ -85,6 +85,9 @@
     <Filter Include="소스 파일\트리">
       <UniqueIdentifier>{ad074167-0e7c-4957-a676-ade53d28f23a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\유니온 파인드">
+      <UniqueIdentifier>{2cce4f9c-2b91-42c9-a309-bbcf3b5e53e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -551,6 +554,15 @@
     </ClCompile>
     <ClCompile Include="트리_트리 순회.cpp">
       <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="유니온 파인드_여행 가자(1976번).cpp">
+      <Filter>소스 파일\유니온 파인드</Filter>
+    </ClCompile>
+    <ClCompile Include="유니온 파인드_집합의표현%281717번%29.cpp">
+      <Filter>소스 파일\유니온 파인드</Filter>
+    </ClCompile>
+    <ClCompile Include="유니온 파인드_친구 네트워크(4195번).cpp">
+      <Filter>소스 파일\유니온 파인드</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
