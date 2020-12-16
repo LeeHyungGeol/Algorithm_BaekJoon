@@ -543,5 +543,14 @@
     <ClCompile Include="트리_트리의 지름.cpp">
       <Filter>소스 파일\트리</Filter>
     </ClCompile>
+    <ClCompile Include="트리_ 이진 검색 트리.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리_트리의 순회.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리_트리 순회.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
