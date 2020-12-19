@@ -11,8 +11,8 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-int N;//국가의 수 N(2 ≤ N ≤ 1 000)
-int M;//비행기의 종류 M(1 ≤ M ≤ 10 000) 
+int N;//국가의 수 N(2 ≤ N ≤ 1000)
+int M;//비행기의 종류 M(1 ≤ M ≤ 10000) 
 int parent[1001];
 vector<pair<int, pair<int, int>>> graph;
 int findParent(int x);

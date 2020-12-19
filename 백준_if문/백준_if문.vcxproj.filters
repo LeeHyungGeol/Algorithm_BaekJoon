@@ -579,5 +579,8 @@
     <ClCompile Include="최소 신장 트리_우주신과의 교감(1774번).cpp">
       <Filter>소스 파일\최소 신장 트리</Filter>
     </ClCompile>
+    <ClCompile Include="최소 신장 트리_행성 터널(2887번).cpp">
+      <Filter>소스 파일\최소 신장 트리</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
