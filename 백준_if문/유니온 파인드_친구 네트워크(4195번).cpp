@@ -26,9 +26,9 @@ int main() {
 		int idx = 0;
 		for (int j = 0; j < F; ++j) {
 			cin >> friend1 >> friend2;
-			if (friendName.count(friend1) == 0)
+			if (friendName.find(friend1) == friendName.end())//friendName.count(friend1) == 0
 				friendName[friend1] = ++idx;
-			if (friendName.count(friend2) == 0)
+			if (friendName.find(friend2) == friendName.end())
 				friendName[friend2] = ++idx;
 			cout << unionParent(friendName[friend1], friendName[friend2]) << '\n';
 		}

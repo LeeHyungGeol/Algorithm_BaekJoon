@@ -33,10 +33,10 @@ int N;//행성의 개수 N이 주어진다. (1 ≤ N ≤ 100,000)
 int parent[100001];
 Planet planet[100001];
 vector<Tunnel> tunnel;
-bool compX(const Planet& a, Planet& b);
-bool compY(const Planet& a, Planet& b);
-bool compZ(const Planet& a, Planet& b);
-bool compWeight(const Tunnel& a, Tunnel& b);
+bool compX(const Planet& a, const Planet& b);
+bool compY(const Planet& a, const Planet& b);
+bool compZ(const Planet& a, const Planet& b);
+bool compWeight(const Tunnel& a, const Tunnel& b);
 bool operator<(const Tunnel& a, const Tunnel& b) {
 	return a.cost < b.cost;
 }
@@ -60,6 +60,8 @@ int main() {
 	//여기선 가중치가 행성과 행성간의 거리가 아닌 min(|xA-xB|, |yA-yB|, |zA-zB|)으로 x,y,z 좌표의 거리의 최솟값이다.
 	//따라서 x,y,z 좌표 각각에 대해 오름차순으로 정렬한 후, 터널에 넣어준다.
 	//마지막에 넣어준 x,y,z 좌표의 거리의 최솟값 기준으로(cost값)으로 오름차순 정렬후, 크루스칼(kruskal) 알고리즘 적용
+	//이렇게 하면 O(N^2)이 아닌 최고로 많으면 O(3 * N-1) -> O(N)이 된다. 
+	//하지만 이것을 정렬할 때 쓰는 정렬 알고리즘(sort(): 퀵 정렬) 때문에, 최종적으로는 O(NlogN)이 된다.
 	sort(planet + 1, planet + N + 1, compX);
 	for (int i = 1; i <= N - 1; ++i)
 		tunnel.push_back({ planet[i].idx, planet[i + 1].idx, abs(planet[i].x - planet[i + 1].x) });
@@ -72,7 +74,7 @@ int main() {
 	for (int i = 1; i <= N - 1; ++i)
 		tunnel.push_back({ planet[i].idx, planet[i + 1].idx, abs(planet[i].z - planet[i + 1].z) });
 
-	//sort(tunnel.begin(), tunnel.end(), compWeight);//구조체는 반드시 operator< 혹은 compare() 함수를 sort함수 안에 넣어줘야 정렬 가능
+	//sort(tunnel.begin(), tunnel.end(), compWeight);//구조체는 반드시 operator< 함수를 구현 혹은 compare() 함수를 sort함수 안에 넣어줘야 정렬 가능
 	sort(tunnel.begin(), tunnel.end());
 	ll result = 0;
 	int cnt = 0;
@@ -90,16 +92,16 @@ int main() {
 	cout << result << '\n';
 	return 0;
 }
-bool compWeight(const Tunnel& a, Tunnel& b) {
+bool compWeight(const Tunnel& a, const Tunnel& b) {
 	return a.cost < b.cost;
 }
-bool compX(const Planet& a, Planet& b) {
+bool compX(const Planet& a, const Planet& b) {
 	return a.x < b.x;
 }
-bool compY(const Planet& a, Planet& b) {
+bool compY(const Planet& a, const Planet& b) {
 	return a.y < b.y;
 }
-bool compZ(const Planet& a, Planet& b) {
+bool compZ(const Planet& a, const Planet& b) {
 	return a.z < b.z;
 }
 int findParent(int x) {

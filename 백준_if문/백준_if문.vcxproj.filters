@@ -91,6 +91,9 @@
     <Filter Include="소스 파일\최소 신장 트리">
       <UniqueIdentifier>{66e13791-1977-43c0-969e-2a8e25b57549}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\트리에서의 동적 계획법">
+      <UniqueIdentifier>{f4cbf269-2f1e-4b75-8d47-70e8efb3323b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -581,6 +584,18 @@
     </ClCompile>
     <ClCompile Include="최소 신장 트리_행성 터널(2887번).cpp">
       <Filter>소스 파일\최소 신장 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="최소 신장 트리_행성 연결(16398번).cpp">
+      <Filter>소스 파일\최소 신장 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="트리에서의 동적 계획법_ 트리의 독립집합(2213번).cpp">
+      <Filter>소스 파일\트리에서의 동적 계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="트리에서의 동적 계획법_트리와 쿼리%2815681번%29.cpp">
+      <Filter>소스 파일\트리에서의 동적 계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="트리에서의 동적 계획법_ 사회망 서비스(SNS)(2533번).cpp">
+      <Filter>소스 파일\트리에서의 동적 계획법</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
