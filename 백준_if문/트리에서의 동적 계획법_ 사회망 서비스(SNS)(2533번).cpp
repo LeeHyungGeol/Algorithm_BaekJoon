@@ -26,14 +26,35 @@ int main() {
 		cin >> from >> to;
 		tree[from].push_back(to);
 		tree[to].push_back(from);
-		dp[i][0] = -1;
-		dp[i][1] = -1;
 	}
+	memset(dp, -1, sizeof(dp));
 	int ret1 = func(1, 0, -1);
 	int ret2 = func(1, 1, -1);
 	cout << min(ret1, ret2) << '\n';
 	return 0;
 }
 int func(int cur, int selected, int prev) {
-	
+	if (dp[cur][selected] != -1) return dp[cur][selected];
+
+	if (selected) {//부모가 얼리어답터일 때
+		dp[cur][selected] = 1;
+		for (int i = 0; i < tree[cur].size(); ++i) {
+			int next = tree[cur][i];
+			if (next != prev) {
+				int ret1 = func(next, true, cur);
+				int ret2 = func(next, false, cur);
+				dp[cur][selected] += min(ret1, ret2);//자식은 아무 상태가 되어도 상관없다.
+			}
+		}
+	}
+	else {//부모가 얼리어답터가 아닐 때
+		dp[cur][selected] = 0;
+		for (int i = 0; i < tree[cur].size(); ++i) {
+			int next = tree[cur][i];
+			if (next != prev) {//next는 true
+				dp[cur][selected] += func(next, true, cur);//자식은 무조건 얼리어답터이어야 한다.	
+			}
+		}
+	}
+	return dp[cur][selected];
 }
