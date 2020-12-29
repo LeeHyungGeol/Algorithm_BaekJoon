@@ -563,7 +563,9 @@
     <ClCompile Include="트리에서의 동적 계획법_ 트리의 독립집합(2213번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="트리에서의 동적 계획법_우수 마을(1949번).cpp" />
+    <ClCompile Include="트리에서의 동적 계획법_우수 마을(1949번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="트리에서의 동적 계획법_트리와 쿼리%2815681번%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
