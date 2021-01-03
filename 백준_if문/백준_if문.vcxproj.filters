@@ -94,6 +94,9 @@
     <Filter Include="소스 파일\트리에서의 동적 계획법">
       <UniqueIdentifier>{f4cbf269-2f1e-4b75-8d47-70e8efb3323b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\문자열 알고리즘 1">
+      <UniqueIdentifier>{2159ac29-ed79-4bb9-8e67-359d3ebdadfe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -599,6 +602,9 @@
     </ClCompile>
     <ClCompile Include="트리에서의 동적 계획법_우수 마을(1949번).cpp">
       <Filter>소스 파일\트리에서의 동적 계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 알고리즘 1_찾기%281786번%29.cpp">
+      <Filter>소스 파일\문자열 알고리즘 1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
