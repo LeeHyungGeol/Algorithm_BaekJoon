@@ -107,7 +107,7 @@ vector<int> kmpSearch(const string& H, const string& N) {
 	}
 	return ret;
 }
-vector<int> getPartialMatchTable(const string& N) {
+vector<int> getPartialMatch2(const string& N) {
 	int m = N.size();
 	vector<int> pi(m, 0);
 	int matched = 0;
@@ -123,7 +123,7 @@ vector<int> getPartialMatchTable(const string& N) {
 }
 vector<int> kmpSearch2(const string& H, const string& N) {
 	vector<int> ret;
-	vector<int> pi = getPartialMatchTable(N);
+	vector<int> pi = getPartialMatch2(N);
 	int n = H.size(), m = N.size();
 	//현재 대응된 글자 수
 	int matched = 0;
