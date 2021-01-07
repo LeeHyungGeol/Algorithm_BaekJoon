@@ -1,7 +1,7 @@
 //https://imnotabear.tistory.com/312 //map과 포인터로 TRIE 구현
 //https://justicehui.github.io/ps/2019/08/27/BOJ14725/ //각 노드에는 단어를 저장하고 child배열에는 다음에 나올 단어를 저장
 //https://yabmoons.tistory.com/379 //TRIE 구현 및 작동원리 //TRIE 구조체 alphabet 기준으로 구현 
-//https://twpower.github.io/187-trie-concept-and-basic-problem //
+//https://twpower.github.io/187-trie-concept-and-basic-problem //TRIE 구현 및 작동원리 //Trie* find(const char * key): key에 해당하는 문자열을 접두어로 가지고 있는지 확인하고 가지고 있다면 해당 접두어가 끝나는 부분의 위치를 반환합니다.
 #include <iostream>
 #include <vector>
 #include <string>

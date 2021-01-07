@@ -615,13 +615,16 @@
     <ClCompile Include="문자열 알고리즘 1_시계 사진들(10266번).cpp">
       <Filter>소스 파일\문자열 알고리즘 1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 알고리즘 1속타는 저녁 메뉴(11585번).cpp">
-      <Filter>소스 파일\문자열 알고리즘 1</Filter>
-    </ClCompile>
     <ClCompile Include="문자열 알고리즘 1_개미굴(14725번).cpp">
       <Filter>소스 파일\문자열 알고리즘 1</Filter>
     </ClCompile>
     <ClCompile Include="문자열 알고리즘 1_문자열 집합(14425번).cpp">
+      <Filter>소스 파일\문자열 알고리즘 1</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 알고리즘 1_휴대폰 자판(5670번).cpp">
+      <Filter>소스 파일\문자열 알고리즘 1</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 알고리즘 1_속타는 저녁 메뉴%2811585번%29.cpp">
       <Filter>소스 파일\문자열 알고리즘 1</Filter>
     </ClCompile>
   </ItemGroup>
