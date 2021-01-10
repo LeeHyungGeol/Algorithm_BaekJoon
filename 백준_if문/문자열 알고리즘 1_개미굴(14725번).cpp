@@ -8,7 +8,7 @@
 #include <map>
 using namespace std;
 struct TRIE {
-	map<string, TRIE*> child; //포인터(*)이 왜 뒤에 붙지?
+	map<string, TRIE*> child; 
 	map<string, TRIE*>::iterator iter;
 	void insert(const vector<string>& str, int level) {
 		if (level == str.size())
