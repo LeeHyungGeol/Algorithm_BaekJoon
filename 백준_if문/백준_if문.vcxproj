@@ -428,7 +428,9 @@
     <ClCompile Include="위상 정렬_ACM Craft(1005번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="위상 정렬_문제집(1766번).cpp" />
+    <ClCompile Include="위상 정렬_문제집(1766번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="위상 정렬_위상 정렬 구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -550,6 +552,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="최단 경로_플로이드%28플로이드 워셜 알고리즘%29%28노드의 개수 500개 이하%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="최소 공통 조상_LCA 2(11438번).cpp" />
+    <ClCompile Include="최소 공통 조상_LCA(11437번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="최소 신장 트리_ 상근이의 여행(9372번).cpp">
