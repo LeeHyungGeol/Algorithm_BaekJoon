@@ -654,5 +654,11 @@
     <ClCompile Include="최소 공통 조상_LCA 2(11438번).cpp">
       <Filter>소스 파일\최소 공통 조상</Filter>
     </ClCompile>
+    <ClCompile Include="최소 공통 조상_가장 가까운 공통 조상(3584번).cpp">
+      <Filter>소스 파일\최소 공통 조상</Filter>
+    </ClCompile>
+    <ClCompile Include="최소 공통 조상_합성함수와 쿼리(17435번).cpp">
+      <Filter>소스 파일\최소 공통 조상</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

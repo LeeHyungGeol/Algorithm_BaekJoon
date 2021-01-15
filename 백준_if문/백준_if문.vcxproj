@@ -554,8 +554,16 @@
     <ClCompile Include="최단 경로_플로이드%28플로이드 워셜 알고리즘%29%28노드의 개수 500개 이하%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="최소 공통 조상_LCA 2(11438번).cpp" />
+    <ClCompile Include="최소 공통 조상_LCA 2(11438번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="최소 공통 조상_LCA(11437번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="최소 공통 조상_가장 가까운 공통 조상(3584번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="최소 공통 조상_합성함수와 쿼리(17435번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="최소 신장 트리_ 상근이의 여행(9372번).cpp">
