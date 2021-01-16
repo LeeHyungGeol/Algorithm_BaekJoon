@@ -563,6 +563,10 @@
     <ClCompile Include="최소 공통 조상_가장 가까운 공통 조상(3584번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="최소 공통 조상_도로 네트워크(3176번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="최소 공통 조상_트리와 쿼리 2(13511번).cpp" />
     <ClCompile Include="최소 공통 조상_합성함수와 쿼리(17435번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

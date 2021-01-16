@@ -35,8 +35,8 @@ int main() {
 		//각각의 값 x를 정점으로 생각하고, 나가는 간선이 정확히 한 개이면서, 그 도착지가 f(x)임을 알 수 있습니다.
 		//f_n(x)는 x에서 n번 이동 후 어디냐를 말하는 것
 		cin >> n >> x;
-		for (int j = LOG - 1; j >= 0; --j) {
-			if (n >= 1 << j) {//if ((n & (1 << j)) > 0) {
+		for (int j = LOG - 1; j >= 0; --j) { //for (int bit = 0; bit < MAX_K; bit++)
+			if (n >= 1 << j) { //if ((n & (1 << bit)) > 0) 
 				n -= 1 << j;
 				x = parent[x][j];
 			}
