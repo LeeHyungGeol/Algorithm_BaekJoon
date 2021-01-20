@@ -1,6 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (백준_if문.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  최소 공통 조상_트리와 쿼리 2(13511번).cpp
-C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\최소 공통 조상_트리와 쿼리 2(13511번).cpp(21,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\최소 공통 조상_트리와 쿼리 2(13511번).cpp(50,10): warning C4244: 'return': 'll'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\최소 공통 조상_트리와 쿼리 2(13511번).cpp(63,9): warning C4244: 'return': 'll'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  강한 연결 요소_강한 연결 요소 구현.cpp
+C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\강한 연결 요소_강한 연결 요소 구현.cpp(39,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\강한 연결 요소_강한 연결 요소 구현.cpp(95,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\강한 연결 요소_강한 연결 요소 구현.cpp(97,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   백준_if문.vcxproj -> C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\Debug\백준_알고리즘문제풀이.exe

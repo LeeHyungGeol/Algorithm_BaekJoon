@@ -31,7 +31,7 @@ void setParent() {
 	for (int i = 1; i < LOG - 1; ++i) {
 		for (int j = 1; j <= N; ++j) {
 			parent[j][i] = parent[parent[j][i - 1]][i - 1];
-			cost[j][i] = cost[parent[j][i - 1]][i - 1];
+			cost[j][i] = cost[j][i - 1] + cost[parent[j][i - 1]][i - 1];
 		}
 	}
 }
@@ -57,8 +57,8 @@ int LCA(int a, int b) {
 			b = parent[b][i];
 		}
 	}
-	sum += parent[a][0];
-	sum += parent[b][0];
+	sum += cost[a][0];
+	sum += cost[b][0];
 	lca = parent[a][0];//k번째 노드를 찾기 위해서 사용할 최소 공통 조상
 	return sum;
 }
@@ -77,7 +77,7 @@ int LCA2(int a, int b, int k) {
 		return a;
 	}
 	else {
-		int dist = rightDist - (k - leftDist - 1);
+		int dist = rightDist - (k - (leftDist + 1));
 		for (int i = LOG - 1; i >= 0; --i) {
 			if (dist >= 1 << i) { //if ((n & (1 << bit)) > 0) 
 				dist -= 1 << i;

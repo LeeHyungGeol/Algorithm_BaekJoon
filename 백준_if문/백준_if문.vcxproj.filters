@@ -103,6 +103,9 @@
     <Filter Include="소스 파일\최소 공통 조상">
       <UniqueIdentifier>{3d33f120-5db0-445e-b0f7-bebefe382364}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\강한 연결 요소">
+      <UniqueIdentifier>{a21b2cbe-fe60-4204-88cf-fb5fa1fb91ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -665,6 +668,15 @@
     </ClCompile>
     <ClCompile Include="최소 공통 조상_트리와 쿼리 2(13511번).cpp">
       <Filter>소스 파일\최소 공통 조상</Filter>
+    </ClCompile>
+    <ClCompile Include="최소 공통 조상_트리와 쿼리2(최적화).cpp">
+      <Filter>소스 파일\최소 공통 조상</Filter>
+    </ClCompile>
+    <ClCompile Include="강한 연결 요소_Strongly Connected Components(2150번).cpp">
+      <Filter>소스 파일\강한 연결 요소</Filter>
+    </ClCompile>
+    <ClCompile Include="강한 연결 요소_강한 연결 요소 구현.cpp">
+      <Filter>소스 파일\강한 연결 요소</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
