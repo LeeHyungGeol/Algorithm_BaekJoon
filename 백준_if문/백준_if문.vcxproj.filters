@@ -678,5 +678,14 @@
     <ClCompile Include="강한 연결 요소_강한 연결 요소 구현.cpp">
       <Filter>소스 파일\강한 연결 요소</Filter>
     </ClCompile>
+    <ClCompile Include="강한 연결 요소_도미노(4196번).cpp">
+      <Filter>소스 파일\강한 연결 요소</Filter>
+    </ClCompile>
+    <ClCompile Include="강한 연결 요소_추구 전술(3977번).cpp">
+      <Filter>소스 파일\강한 연결 요소</Filter>
+    </ClCompile>
+    <ClCompile Include="강한 연결 요소_ATM(4013번).cpp">
+      <Filter>소스 파일\강한 연결 요소</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
