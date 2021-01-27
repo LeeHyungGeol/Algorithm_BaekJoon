@@ -71,7 +71,7 @@ int dfs(int x) {
 	return parent;
 }
 int main() {
-	int v = 11;
+	/*int v = 11;
 	adj[1].push_back(2);
 	adj[2].push_back(3);
 	adj[3].push_back(1);
@@ -85,7 +85,18 @@ int main() {
 	adj[9].push_back(10);
 	adj[10].push_back(11);
 	adj[11].push_back(3);
-	adj[11].push_back(8);
+	adj[11].push_back(8);*/
+
+	int v = 6;
+	adj[1].push_back(2);
+	//adj[2].push_back(1);
+	adj[2].push_back(3);
+	adj[3].push_back(4);
+	adj[4].push_back(2);
+	adj[1].push_back(5);
+	adj[6].push_back(5);
+	adj[5].push_back(6);
+	adj[6].push_back(4);
 
 	for (int i = 1; i <= v; ++i) {
 		//한번도 방문하지 않은 노드에 대하여 dfs를 수행

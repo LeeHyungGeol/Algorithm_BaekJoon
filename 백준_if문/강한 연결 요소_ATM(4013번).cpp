@@ -1,3 +1,5 @@
+//https://blog.naver.com/uss425/222181330549
+//https://m.blog.naver.com/jqkt15/221935628641
 //강한 연결 요소(Strongly Connected Componensts): 강하게 연결된 정점 집합
 //같은 SCC에 속하는 두 정점은 서로 도달이 가능하다.
 //사이클이 발생하는 경우 무조건 SCC에 해당한다.
@@ -34,7 +36,7 @@ int group[MAX];
 
 int atm[MAX];
 int finalCost[MAX];
-vector<int> newGraph[MAX];
+vector<int> sccGraph[MAX];
 bool Start[MAX];
 bool End[MAX];
 
@@ -82,8 +84,8 @@ int topologicalSort() {
 		int cur = q.front();
 		q.pop();
 
-		for (int i = 0; i < newGraph[cur].size(); ++i) {
-			int next = newGraph[cur][i];
+		for (int i = 0; i < sccGraph[cur].size(); ++i) {
+			int next = sccGraph[cur][i];
 			inDegree[next]--;
 			if (Start[cur]) {
 				finalCost[next] = max(finalCost[next], finalCost[cur] + atm[next]);
@@ -125,7 +127,7 @@ int main() {
 			int next = graph[i][j];
 			if (group[i] != group[next]) {
 				inDegree[group[next]]++;
-				newGraph[group[i]].push_back(group[next]);
+				sccGraph[group[i]].push_back(group[next]);
 			}
 		}
 	}
