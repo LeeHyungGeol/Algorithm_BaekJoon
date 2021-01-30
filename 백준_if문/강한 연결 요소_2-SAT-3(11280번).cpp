@@ -63,7 +63,7 @@ vector<int> graph[MAX * 2];
 stack<int> s;
 int SCC[MAX * 2];
 // 자신의 not literal의 정점 번호 리턴
-inline int oppo(int n) { return n % 2 ? n - 1 : n + 1; }
+inline int oppo(int n) { return n % 2 ? n + 1 : n - 1; }
 
 int TarjanSCC(int cur) {
 	pa[cur] = id++;
