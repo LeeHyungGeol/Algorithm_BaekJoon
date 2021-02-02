@@ -1,3 +1,5 @@
+//특정 정점이 true 면서 다른 모든 명제를 만족시키는지 판단하는것
+// : x1가 true임과 ~x1 -> x1 이 true임이 동치
 #include <iostream>
 #include <vector>
 #include <stack>

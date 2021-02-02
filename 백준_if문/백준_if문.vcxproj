@@ -197,7 +197,9 @@
     <ClCompile Include="강한 연결 요소_Strongly Connected Components(2150번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="강한 연결 요소_TV Show Game(16367번).cpp" />
+    <ClCompile Include="강한 연결 요소_TV Show Game(16367번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="강한 연결 요소_강한 연결 요소 구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -378,6 +380,7 @@
     <ClCompile Include="분할 정복_행렬 제곱_분할 정복으로 행렬의 거듭제곱을 빠르게 계산하는 문제.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="세그먼트 트리_구간 합 구하기 구현.cpp" />
     <ClCompile Include="수학1_ACM 호텔.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
