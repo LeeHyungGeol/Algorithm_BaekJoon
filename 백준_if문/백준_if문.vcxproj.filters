@@ -702,7 +702,22 @@
     <ClCompile Include="강한 연결 요소_TV Show Game(16367번).cpp">
       <Filter>소스 파일\강한 연결 요소</Filter>
     </ClCompile>
-    <ClCompile Include="세그먼트 트리_구간 합 구하기 구현.cpp">
+    <ClCompile Include="세그먼트 트리_구간 합 구하기(2042번).cpp">
+      <Filter>소스 파일\세그먼트 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="세그먼트 트리_구간 합 구하기 4%2811659번%29.cpp">
+      <Filter>소스 파일\세그먼트 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="세그먼트 트리_구간 곱 구하기(11505번).cpp">
+      <Filter>소스 파일\세그먼트 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="세그먼트 트리_최솟값과 최댓값(2357번).cpp">
+      <Filter>소스 파일\세그먼트 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="세그먼트 트리_버블 소트(1517번).cpp">
+      <Filter>소스 파일\세그먼트 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="세그먼트 트리_디지털 비디오 디스크(DVDs)(9345번).cpp">
       <Filter>소스 파일\세그먼트 트리</Filter>
     </ClCompile>
   </ItemGroup>
