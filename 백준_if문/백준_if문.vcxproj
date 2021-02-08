@@ -389,6 +389,10 @@
     <ClCompile Include="세그먼트 트리_구간 합 구하기(2042번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="세그먼트 트리_데이터 구조(12899번).cpp" />
+    <ClCompile Include="세그먼트 트리_틀린 풀이_데이터 구조%2812899번%29.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="세그먼트 트리_디지털 비디오 디스크(DVDs)(9345번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -398,7 +402,9 @@
     <ClCompile Include="세그먼트 트리_수열과 쿼리 21(16975번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="세그먼트 트리_수열과 쿼리 21(16975번)_2번째 풀이.cpp" />
+    <ClCompile Include="세그먼트 트리_수열과 쿼리 21(16975번)_2번째 풀이.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="세그먼트 트리_최솟값과 최댓값(2357번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
