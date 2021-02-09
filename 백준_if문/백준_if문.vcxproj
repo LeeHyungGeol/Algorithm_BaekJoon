@@ -389,7 +389,12 @@
     <ClCompile Include="세그먼트 트리_구간 합 구하기(2042번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="세그먼트 트리_데이터 구조(12899번).cpp" />
+    <ClCompile Include="세그먼트 트리_데이터 구조(12899번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="세그먼트 트리_요세푸스 문제(1168번).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="세그먼트 트리_틀린 풀이_데이터 구조%2812899번%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

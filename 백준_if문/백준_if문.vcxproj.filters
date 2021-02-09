@@ -732,5 +732,8 @@
     <ClCompile Include="세그먼트 트리_데이터 구조(12899번).cpp">
       <Filter>소스 파일\세그먼트 트리</Filter>
     </ClCompile>
+    <ClCompile Include="세그먼트 트리_요세푸스 문제(1168번).cpp">
+      <Filter>소스 파일\세그먼트 트리</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
