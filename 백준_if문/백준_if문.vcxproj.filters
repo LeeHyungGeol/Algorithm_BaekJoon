@@ -109,6 +109,9 @@
     <Filter Include="소스 파일\세그먼트 트리">
       <UniqueIdentifier>{e68dfed5-df91-4c19-b85c-d9d4d1329fb6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\스위핑">
+      <UniqueIdentifier>{7b5eeb1a-ae01-48b6-96da-fe2aa8f5b88b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -734,6 +737,9 @@
     </ClCompile>
     <ClCompile Include="세그먼트 트리_요세푸스 문제(1168번).cpp">
       <Filter>소스 파일\세그먼트 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="스위핑_선 긋기(2170번).cpp">
+      <Filter>소스 파일\스위핑</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
