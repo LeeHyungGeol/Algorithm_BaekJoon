@@ -741,5 +741,8 @@
     <ClCompile Include="스위핑_선 긋기(2170번).cpp">
       <Filter>소스 파일\스위핑</Filter>
     </ClCompile>
+    <ClCompile Include="스위핑_수상 택시(2836번).cpp">
+      <Filter>소스 파일\스위핑</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
