@@ -1,20 +1,20 @@
-//ºÏ¼­Ç³À» Å¸°í Ç×ÇØÇÒ ¼ö ÀÖ´Â ¼¶ÀÇ ½ÖÀÇ °³¼ö¸¦ ±¸ÇÏ´Â ¹®Á¦ÀÌ´Ù.
-//¿©±â¼­ ºÏ¼­Ç³À» Å¸°í Ç×ÇØÇÒ ¼ö ÀÖ´Â ¼¶ÀÌ¶õ, ¾î¶² ¼¶ ±âÁØÀ¸·Î xÁÂÇ¥°¡ ÇØ´çÇÏ´Â ¼¶º¸´Ù Å©°Å³ª °°°í, yÁÂÇ¥°¡ ÇØ´çÇÏ´Â ¼¶º¸´Ù ÀÛ°Å³ª °°Àº ¼¶µéÀ» ¸»ÇÑ´Ù.
-//°á±¹ °¢ ¼¶¸¶´Ù xÁÂÇ¥°¡ ÀÛÀ¸¸é¼­ yÁÂÇ¥´Â Å« ¼¶µéÀÇ °³¼ö¸¦ ±¸ÇÑ µÚ ±× ÇÕÀ» Ãâ·ÂÇÏ¸é µÈ´Ù. 
-//xÁÂÇ¥¿¡ ´ëÇØ ¿À¸§Â÷¼øÀ¸·Î Á¤·Ä, yÁÂÇ¥¿¡ ´ëÇØ ³»¸²Â÷¼øÀ¸·Î Á¤·ÄÇÑ´Ù.
-//»õ·Î¿î ¹è¿­ newY¸¦ ÀÌ¿ëÇÏ¿©, yÁÂÇ¥¿¡ ´ëÇÑ ÁÂÇ¥ ¾ÐÃàÀ» ¼öÇàÇÑ´Ù.
-//ÁÂÇ¥ ¾ÐÃàÀ» ÇÑ index¿¡ ´ëÇØ¼­ ¼¼±×¸ÕÆ® Æ®¸®¿¡ ¾÷µ¥ÀÌÆ® ½ÃÄÑÁÖ°í, ÇöÀç º¸°í ÀÖ´Â ¼¶(ÁÂÇ¥)º¸´Ù ´õ Å« yÁÂÇ¥ÀÇ °³¼ö¸¦ ¼¼¾îÁÖ¸é µÈ´Ù.
+//ë¶ì„œí’ì„ íƒ€ê³  í•­í•´í•  ìˆ˜ ìžˆëŠ” ì„¬ì˜ ìŒì˜ ê°œìˆ˜ë¥¼ êµ¬í•˜ëŠ” ë¬¸ì œì´ë‹¤.
+//ì—¬ê¸°ì„œ ë¶ì„œí’ì„ íƒ€ê³  í•­í•´í•  ìˆ˜ ìžˆëŠ” ì„¬ì´ëž€, ì–´ë–¤ ì„¬ ê¸°ì¤€ìœ¼ë¡œ xì¢Œí‘œê°€ í•´ë‹¹í•˜ëŠ” ì„¬ë³´ë‹¤ ìž‘ê±°ë‚˜ ê°™ê³ , yì¢Œí‘œê°€ í•´ë‹¹í•˜ëŠ” ì„¬ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ì€ ì„¬ë“¤ì„ ë§í•œë‹¤.
+//ê²°êµ­ ê° ì„¬ë§ˆë‹¤ xì¢Œí‘œê°€ ìž‘ìœ¼ë©´ì„œ yì¢Œí‘œëŠ” í° ì„¬ë“¤ì˜ ê°œìˆ˜ë¥¼ êµ¬í•œ ë’¤ ê·¸ í•©ì„ ì¶œë ¥í•˜ë©´ ëœë‹¤. 
+//xì¢Œí‘œì— ëŒ€í•´ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬, yì¢Œí‘œì— ëŒ€í•´ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ì •ë ¬í•œë‹¤.
+//ìƒˆë¡œìš´ ë°°ì—´ newYë¥¼ ì´ìš©í•˜ì—¬, yì¢Œí‘œì— ëŒ€í•œ ì¢Œí‘œ ì••ì¶•ì„ ìˆ˜í–‰í•œë‹¤.
+//ì¢Œí‘œ ì••ì¶•ì„ í•œ indexì— ëŒ€í•´ì„œ ì„¸ê·¸ë¨¼íŠ¸ íŠ¸ë¦¬ì— ì—…ë°ì´íŠ¸ ì‹œì¼œì£¼ê³ , í˜„ìž¬ ë³´ê³  ìžˆëŠ” ì„¬(ì¢Œí‘œ)ë³´ë‹¤ ë” í° yì¢Œí‘œì˜ ê°œìˆ˜ë¥¼ ì„¸ì–´ì£¼ë©´ ëœë‹¤.
 
-//ÁÂÇ¥¸¦ ¾ÐÃàÇÑ´Ù : ÇØ´ç ÁÂÇ¥ÀÇ °ªÀ» ±× °ªº¸´Ù ÀÛÀº ÁÂÇ¥°ªµéÀÇ °³¼ö·Î ´ëÃ¼ÇÑ´Ù.
-//ÁÂÇ¥ ¾ÐÃàÀº ÁÖ¾îÁö´Â ¼öÀÇ ¹üÀ§°¡ ¸Å¿ì Å©Áö¸¸ ±× ¹üÀ§ÀÇ ¼ö Áß¿¡¼­ ³ª¿À´Â ¼ö´Â ±×·¸°Ô ¸¹Áö ¾ÊÀ»¶§ »ç¿ëÇÑ´Ù.
-//¸¸¾à ¹üÀ§°¡ - 1e9 ~1e9 ÀÎµ¥ ¼ýÀÚ´Â 10¸¸°³ ¹Û¿¡ ¾ø´Ù¸é ÁÂÇ¥ ¾ÐÃàÀ» ÅëÇØ ¹üÀ§¸¦ ÁÙ¿©¼­ ¹«¾ð°¡¸¦ ¼öÇàÇÑ´Ù¸é, ´õ¿í È¿À²ÀûÀ¸·Î ÇÒ ¼ö ÀÖ´Ù.
-//ÀÌ´Â ¼¼±×¸ÕÆ® Æ®¸®³ª ±¸°£ Äõ¸® Ã³¸®¿¡ ¾²ÀÌ´Â °æ¿ì°¡ ¸¹´Ù.
+//ì¢Œí‘œë¥¼ ì••ì¶•í•œë‹¤ : í•´ë‹¹ ì¢Œí‘œì˜ ê°’ì„ ê·¸ ê°’ë³´ë‹¤ ìž‘ì€ ì¢Œí‘œê°’ë“¤ì˜ ê°œìˆ˜ë¡œ ëŒ€ì²´í•œë‹¤.
+//ì¢Œí‘œ ì••ì¶•ì€ ì£¼ì–´ì§€ëŠ” ìˆ˜ì˜ ë²”ìœ„ê°€ ë§¤ìš° í¬ì§€ë§Œ ê·¸ ë²”ìœ„ì˜ ìˆ˜ ì¤‘ì—ì„œ ë‚˜ì˜¤ëŠ” ìˆ˜ëŠ” ê·¸ë ‡ê²Œ ë§Žì§€ ì•Šì„ë•Œ ì‚¬ìš©í•œë‹¤.
+//ë§Œì•½ ë²”ìœ„ê°€ - 1e9 ~1e9 ì¸ë° ìˆ«ìžëŠ” 10ë§Œê°œ ë°–ì— ì—†ë‹¤ë©´ ì¢Œí‘œ ì••ì¶•ì„ í†µí•´ ë²”ìœ„ë¥¼ ì¤„ì—¬ì„œ ë¬´ì–¸ê°€ë¥¼ ìˆ˜í–‰í•œë‹¤ë©´, ë”ìš± íš¨ìœ¨ì ìœ¼ë¡œ í•  ìˆ˜ ìžˆë‹¤.
+//ì´ëŠ” ì„¸ê·¸ë¨¼íŠ¸ íŠ¸ë¦¬ë‚˜ êµ¬ê°„ ì¿¼ë¦¬ ì²˜ë¦¬ì— ì“°ì´ëŠ” ê²½ìš°ê°€ ë§Žë‹¤.
 
-//ÁÂÇ¥ ¾ÐÃàÀ» ÇÏ´Â ¹æ¹ý
-//1. vector¸¦ ÀÌ¿ëÇÏ¿© ÁÂÇ¥ °ªÀ» ¸ðµÎ ÀÔ·Â ¹Þ´Â´Ù.ÀÌ¶§ ¿ø·¡ »óÅÂ¸¦ ÀúÀåÇÏ±â À§ÇØ µÎ °³ÀÇ º¤ÅÍ¿¡ ÀÔ·Â¹Þ½À´Ï´Ù.
-//2. Áßº¹µÈ ¼ö¸¦ Á¦°ÅÇÏ±â À§ÇØ ¿À¸§Â÷¼øÀ¸·Î Á¤·ÄÇÑ´Ù.
-//3. unique¸¦ ÀÌ¿ëÇÏ¿© Áßº¹µÈ ¼ö¸¦ µÚ·Î ¹Ð°í resize³ª erase¸¦ ÀÌ¿ëÇØ¼­ µÚ·Î ¹Ð·Á³­ Áßº¹µÈ ¼ö¸¦ Á¦°ÅÇÕ´Ï´Ù.
-//4. lower_bound¸¦ ÀÌ¿ëÇÏ¿© ¿ø·¡ÀÇ ¼ö¸¦ Ã£½À´Ï´Ù.Áï indexÀÇ À§Ä¡°¡ ÁÂÇ¥ ¾ÐÃàÀ» ÇÑ °ªÀÌ µË´Ï´Ù.
+//ì¢Œí‘œ ì••ì¶•ì„ í•˜ëŠ” ë°©ë²•
+//1. vectorë¥¼ ì´ìš©í•˜ì—¬ ì¢Œí‘œ ê°’ì„ ëª¨ë‘ ìž…ë ¥ ë°›ëŠ”ë‹¤.ì´ë•Œ ì›ëž˜ ìƒíƒœë¥¼ ì €ìž¥í•˜ê¸° ìœ„í•´ ë‘ ê°œì˜ ë²¡í„°ì— ìž…ë ¥ë°›ìŠµë‹ˆë‹¤.
+//2. ì¤‘ë³µëœ ìˆ˜ë¥¼ ì œê±°í•˜ê¸° ìœ„í•´ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬í•œë‹¤.
+//3. uniqueë¥¼ ì´ìš©í•˜ì—¬ ì¤‘ë³µëœ ìˆ˜ë¥¼ ë’¤ë¡œ ë°€ê³  resizeë‚˜ eraseë¥¼ ì´ìš©í•´ì„œ ë’¤ë¡œ ë°€ë ¤ë‚œ ì¤‘ë³µëœ ìˆ˜ë¥¼ ì œê±°í•©ë‹ˆë‹¤.
+//4. lower_boundë¥¼ ì´ìš©í•˜ì—¬ ì›ëž˜ì˜ ìˆ˜ë¥¼ ì°¾ìŠµë‹ˆë‹¤.ì¦‰ indexì˜ ìœ„ì¹˜ê°€ ì¢Œí‘œ ì••ì¶•ì„ í•œ ê°’ì´ ë©ë‹ˆë‹¤.
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -30,17 +30,17 @@ vector<int> cnt;
 vector<int> rangeSum;
 
 int query(int L, int R, int node, int nodeL, int nodeR) {
-	// [nodeL, nodeR]°ú [L, R]ÀÌ ÀüÇô ¾È °ãÄ¡´Â °æ¿ì. ¹Ù·Î 0À» ¸®ÅÏ, 0Àº ±¸°£ÀÇ ÇÕ¿¡ ¹«°üÇÏ±â ¶§¹®¿¡
+	// [nodeL, nodeR]ê³¼ [L, R]ì´ ì „í˜€ ì•ˆ ê²¹ì¹˜ëŠ” ê²½ìš°. ë°”ë¡œ 0ì„ ë¦¬í„´, 0ì€ êµ¬ê°„ì˜ í•©ì— ë¬´ê´€í•˜ê¸° ë•Œë¬¸ì—
 	if (nodeR < L || R < nodeL) return 0;
-	//[nodeL, nodeR]ÀÌ [L, R]¿¡ ¿ÏÀüÈ÷ Æ÷ÇÔµÇ´Â °æ¿ì. ¹Ù·Î ÀÚ½ÅÀÇ °ªÀ» ¸®ÅÏ
+	//[nodeL, nodeR]ì´ [L, R]ì— ì™„ì „ížˆ í¬í•¨ë˜ëŠ” ê²½ìš°. ë°”ë¡œ ìžì‹ ì˜ ê°’ì„ ë¦¬í„´
 	if (L <= nodeL && nodeR <= R) return rangeSum[node];
 	int mid = (nodeL + nodeR) / 2;
 	return query(L, R, node * 2, nodeL, mid) + query(L, R, node * 2 + 1, mid + 1, nodeR);
 }
 int update(int index, int newValue, int node, int nodeL, int nodeR) {
-	//index°¡ ³ëµå°¡ Ç¥ÇöÇÏ´Â ±¸°£°ú »ó°ü¾ø´Â °æ¿ì¿¡´Â ¹«½ÃÇÑ´Ù.
+	//indexê°€ ë…¸ë“œê°€ í‘œí˜„í•˜ëŠ” êµ¬ê°„ê³¼ ìƒê´€ì—†ëŠ” ê²½ìš°ì—ëŠ” ë¬´ì‹œí•œë‹¤.
 	if (nodeL > index || index > nodeR) return rangeSum[node];
-	//Æ®¸®ÀÇ ¸®ÇÁ ³ëµå±îÁö ³»·Á¿Â °æ¿ì
+	//íŠ¸ë¦¬ì˜ ë¦¬í”„ ë…¸ë“œê¹Œì§€ ë‚´ë ¤ì˜¨ ê²½ìš°
 	if (nodeL == nodeR) return rangeSum[node] = newValue;
 	int mid = (nodeL + nodeR) / 2;
 	return rangeSum[node] = update(index, newValue, node * 2, nodeL, mid) + update(index, newValue, node * 2 + 1, mid + 1, nodeR);
