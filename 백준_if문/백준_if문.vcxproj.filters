@@ -753,8 +753,5 @@
     <ClCompile Include="[백준 골드 4] 1647번.cpp">
       <Filter>소스 파일\최소 신장 트리</Filter>
     </ClCompile>
-    <ClCompile Include="[백준 골드 3] 2437번.cpp">
-      <Filter>소스 파일\그리디 알고리즘</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
