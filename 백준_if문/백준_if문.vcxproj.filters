@@ -112,6 +112,9 @@
     <Filter Include="소스 파일\스위핑">
       <UniqueIdentifier>{7b5eeb1a-ae01-48b6-96da-fe2aa8f5b88b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\구현">
+      <UniqueIdentifier>{27ce10bb-60ab-44e1-b8c5-c0d092e7c772}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -751,7 +754,10 @@
       <Filter>소스 파일\유니온 파인드</Filter>
     </ClCompile>
     <ClCompile Include="[백준 골드 4] 1647번.cpp">
-      <Filter>소스 파일\최소 신장 트리</Filter>
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 4] 17281번.cpp">
+      <Filter>소스 파일\구현</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
