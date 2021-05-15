@@ -2,9 +2,9 @@
 #include <algorithm>
 #include <cstring>
 
-#define PLAYER_NUM 10
-
 using namespace std;
+
+const static int PLAYER_NUM = 10;
 
 int N, result;
 int innings[51][PLAYER_NUM] = { 0, };
@@ -90,7 +90,7 @@ void play() {
 								base[player + 1] = 1;
 								base[player] = 0;
 							}
-						} 
+						}
 					}
 
 					base[1] = 1;
@@ -102,7 +102,7 @@ void play() {
 							if (player == 3 || player == 2) {
 								base[player] = 0;
 								++score;
-							} 
+							}
 							else {
 								base[player + 2] = 1;
 								base[player] = 0;
