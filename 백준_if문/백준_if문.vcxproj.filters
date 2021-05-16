@@ -106,14 +106,14 @@
     <Filter Include="소스 파일\강한 연결 요소">
       <UniqueIdentifier>{a21b2cbe-fe60-4204-88cf-fb5fa1fb91ab}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\세그먼트 트리">
-      <UniqueIdentifier>{e68dfed5-df91-4c19-b85c-d9d4d1329fb6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\스위핑">
       <UniqueIdentifier>{7b5eeb1a-ae01-48b6-96da-fe2aa8f5b88b}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\구현">
       <UniqueIdentifier>{27ce10bb-60ab-44e1-b8c5-c0d092e7c772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\세그먼트 트리">
+      <UniqueIdentifier>{e68dfed5-df91-4c19-b85c-d9d4d1329fb6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -753,14 +753,17 @@
     <ClCompile Include="[백준 골드 4] 20040번.cpp">
       <Filter>소스 파일\유니온 파인드</Filter>
     </ClCompile>
-    <ClCompile Include="[백준 골드 4] 1647번.cpp">
-      <Filter>소스 파일\그리디 알고리즘</Filter>
-    </ClCompile>
     <ClCompile Include="[백준 골드 4] 17281번.cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
     <ClCompile Include="[백준 골드 5] 1753번.cpp">
       <Filter>소스 파일\최단 경로</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 4] 1647번.cpp">
+      <Filter>소스 파일\최소 신장 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 3] 2437번.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
