@@ -1,3 +1,6 @@
+// 17142번 연구소 3과 문제 동일
+// 다만, 연구소 3과는 다르게 활성 바이러스가 비활성 바이러스한테 전파하는 시간 계산
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
