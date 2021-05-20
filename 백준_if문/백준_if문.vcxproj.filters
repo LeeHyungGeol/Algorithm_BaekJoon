@@ -768,5 +768,8 @@
     <ClCompile Include="[백준 골드 5] 10026번.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 4] 17142번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
