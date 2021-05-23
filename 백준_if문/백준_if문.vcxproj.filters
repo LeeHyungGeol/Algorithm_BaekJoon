@@ -780,5 +780,8 @@
     <ClCompile Include="[이코테_이론편_실전문제] 부품찾기.cpp">
       <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 실버 3] 2805번.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
