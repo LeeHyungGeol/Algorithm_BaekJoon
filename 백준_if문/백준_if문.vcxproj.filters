@@ -783,5 +783,8 @@
     <ClCompile Include="[백준 실버 3] 2805번.cpp">
       <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
+    <ClCompile Include="[이코테_알고리즘유형별기출문제] 정렬된 배열에서 특정 수의 개수 구하기.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
