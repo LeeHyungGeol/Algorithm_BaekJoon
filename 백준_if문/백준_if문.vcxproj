@@ -560,7 +560,7 @@
     <ClCompile Include="이분 탐색_K번째 수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="이분 탐색_공유기 설치_이분 탐색을 응용하여 최솟값이나 최댓값을 찾는 문제 3.cpp">
+    <ClCompile Include="[백준 실버 1] 2110번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="[백준 실버 3] 1654번.cpp">
