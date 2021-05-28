@@ -789,5 +789,8 @@
     <ClCompile Include="[백준 골드 5] 1461번.cpp">
       <Filter>소스 파일\정렬</Filter>
     </ClCompile>
+    <ClCompile Include="[이코테_알고리즘유형별기출문제] 고정점 찾기.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
