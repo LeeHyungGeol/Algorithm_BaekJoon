@@ -795,5 +795,8 @@
     <ClCompile Include="[백준 골드 3] 1937번.cpp">
       <Filter>소스 파일\동적 계획법 1</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 3] 2539번.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
