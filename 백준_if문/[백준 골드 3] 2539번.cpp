@@ -52,7 +52,7 @@ int main() {
 	// 최소는 x좌표의 최대값이고, 최대는 열의 최대 크기이다.
 	int start = maxX, end = 100000, result = 0;
 
-	while (start < end) {
+	while (start <= end) {
 		int cnt = 1;
 
 		int value = arr[0];
