@@ -66,12 +66,12 @@ int main() {
 			}
 		}
 	
-		if (cnt <= usePaper) {
-			result = mid;
-			end = mid - 1;
+		if (cnt > usePaper) {
+			start = mid + 1;
 		}
 		else {
-			start = mid + 1;
+			result = mid;
+			end = mid - 1;
 		}
 	}
 
