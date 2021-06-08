@@ -18,7 +18,7 @@ int dx[4] = { -1,1,0,0 };
 int dy[4] = { 0,0,-1,1 };
 vector<piii> virus;
 
-void dfsForSeconds();
+void bfsForSeconds();
 void bfs();
 
 int main() {
@@ -37,14 +37,14 @@ int main() {
 
 	cin >> S >> X >> Y;
 
-	dfsForSeconds();
+	bfsForSeconds();
 
 	cout << laboratory[X - 1][Y - 1] << '\n';
 
 	return 0;
 }
 
-void dfsForSeconds() {
+void bfsForSeconds() {
 	for (int s = 0; s < S; ++s) {
 		bfs();
 	}
