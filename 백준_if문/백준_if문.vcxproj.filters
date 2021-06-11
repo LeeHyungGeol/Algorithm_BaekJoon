@@ -327,12 +327,6 @@
     <ClCompile Include="백트랙킹_N-Queen.cpp">
       <Filter>소스 파일\백트랙킹</Filter>
     </ClCompile>
-    <ClCompile Include="백트랙킹_연산자 끼워넣기.cpp">
-      <Filter>소스 파일\백트랙킹</Filter>
-    </ClCompile>
-    <ClCompile Include="백트랙킹_연산자 끼워넣기(2).cpp">
-      <Filter>소스 파일\백트랙킹</Filter>
-    </ClCompile>
     <ClCompile Include="동적 계획법 1_피보나치 함수_단순 재귀로 피보나치 수를 구하면 느린 이유는 함수 호출의 개수가 기하급수적으로 늘어나기 때문.cpp">
       <Filter>소스 파일\동적 계획법 1</Filter>
     </ClCompile>
@@ -808,6 +802,9 @@
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
     <ClCompile Include="[백준 실버 1] 18405번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 1] 14888번.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
   </ItemGroup>
