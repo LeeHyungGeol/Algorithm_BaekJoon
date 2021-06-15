@@ -32,18 +32,22 @@ void dijkstra(int x, int y);
 int main() {
 	// N: 세로크기, 행
 	// M: 가로크기, 렬
-	cin >> N >> M;
+	cin >> M >> N;
 
-	for (int i = 0; i < M; ++i) {
-		for (int j = 0; j < N; ++j) {
+	for (int i = 0; i < N; ++i) {
+		for (int j = 0; j < M; ++j) {
 			scanf("%1d", &graph[i][j]);
-			d[i][j] = INF;
+			//d[i][j] = INF;
 		}
+	}
+
+	for (int i = 0; i < N; ++i) {
+		fill(d[i], d[i] + M, INF);
 	}
 
 	dijkstra(0, 0);
 
-	cout << d[M - 1][N - 1] << '\n';
+	cout << d[N - 1][M - 1] << '\n';
 	
 	return 0;
 }
@@ -61,17 +65,24 @@ void dijkstra(int x, int y) {
 
 		pq.pop();
 
-		if (visited[x][y]) {
+		// 현재 노드가 이미 처리된 적이 있는 노드라면 무시
+		if (d[x][y] < dist) {
+			continue;
+		}
+
+		/*
+		if(visited[x][y]) {
 			continue;
 		}
 
 		visited[x][y] = true;
+		*/
 
 		for (int i = 0; i < 4; ++i) {
 			int nx = x + dx[i];
 			int ny = y + dy[i];
 
-			if (0 <= nx && nx < M && 0 <= ny && ny < N) {
+			if (0 <= nx && nx < N && 0 <= ny && ny < M) {
 				if (dist + graph[nx][ny] < d[nx][ny]) {
 					d[nx][ny] = dist + graph[nx][ny];
 					pq.push({ -d[nx][ny], {nx, ny} });
