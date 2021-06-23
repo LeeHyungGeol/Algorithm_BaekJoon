@@ -825,5 +825,8 @@
     <ClCompile Include="[백준 브론즈 2] 18406번.cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="[이코테_알고리즘유형별기출문제] 문자열 재정렬.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
