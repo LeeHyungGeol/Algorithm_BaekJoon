@@ -831,5 +831,11 @@
     <ClCompile Include="[이코테_이론편_실전문제] 상하좌우.cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="[이코테_이론편_실전문제] 시각.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="[이코테_이론편_실전문제] 왕실의 나이트.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

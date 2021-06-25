@@ -272,6 +272,10 @@
     <ClCompile Include="[이코테_이론편_실전문제] 부품찾기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="[이코테_이론편_실전문제] 시각.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="[이코테_이론편_실전문제] 왕실의 나이트.cpp" />
     <ClCompile Include="강한 연결 요소_2-SAT-3%2811280번%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
