@@ -15,6 +15,7 @@ int main() {
 	countPossibleMoves(str[0], str[1]);
 
 	cout << answer << '\n';
+
 	return 0;
 }
 
