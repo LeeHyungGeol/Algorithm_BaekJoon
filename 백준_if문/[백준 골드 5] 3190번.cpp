@@ -5,6 +5,7 @@
 using namespace std;
 
 typedef pair<int, int>  pii;
+typedef pair<int, char> pic;
 
 int N, K, L, X;
 char C;
@@ -12,7 +13,7 @@ int arr[100][100] = { 0,};
 // µ¿, ³², ¼­, ºÏ
 int dx[] = { 0,1,0,-1 };
 int dy[] = { 1,0,-1,0 };
-queue<pii> turnInfo;
+queue<pic> turnInfo;
 
 int move(int x, int y);
 int turn(int direction, char info);
