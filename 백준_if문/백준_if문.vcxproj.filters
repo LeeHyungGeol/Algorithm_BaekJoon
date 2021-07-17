@@ -849,5 +849,8 @@
     <ClCompile Include="[백준 골드 3] 3663번.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 5] 1915번.cpp">
+      <Filter>소스 파일\동적 계획법 1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
