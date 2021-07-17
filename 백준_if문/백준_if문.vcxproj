@@ -344,7 +344,7 @@
     <ClCompile Include="동적 계획법 1_쉬운 계단 수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="동적 계획법 1_정수 삼각형_각 층의 모든 칸마다 최댓값을 저장하면서 동적 계획법으로 푸는 문제.cpp">
+    <ClCompile Include="[백준 실버 1] 1932번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="동적 계획법 1_파도반 수열_피보나치 수와 비슷한 규칙을 찾아 동적 계획법으로 푸는 문제.cpp">
