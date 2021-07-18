@@ -471,9 +471,6 @@
     <ClCompile Include="DFS와 BFS_BFS 구현.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
-    <ClCompile Include="DFS와 BFS_단지번호붙이기_ConnectedComponents 구현.cpp">
-      <Filter>소스 파일\DFS, BFS</Filter>
-    </ClCompile>
     <ClCompile Include="DFS와 BFS_토마토_3차원 버전.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
@@ -850,6 +847,9 @@
       <Filter>소스 파일\동적 계획법 1</Filter>
     </ClCompile>
     <ClCompile Include="[백준 실버 2] 2178번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 1] 2667번.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
   </ItemGroup>
