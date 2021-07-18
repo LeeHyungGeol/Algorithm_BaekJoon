@@ -483,9 +483,6 @@
     <ClCompile Include="DFS와 BFS_벽 부수고 이동하기.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
-    <ClCompile Include="DFS와 BFS_미로 탐색.cpp">
-      <Filter>소스 파일\DFS, BFS</Filter>
-    </ClCompile>
     <ClCompile Include="최단 경로_다익스트라 알고리즘%28노드의 개수 1만개 이상%29%28우선순위 큐%29.cpp">
       <Filter>소스 파일\최단 경로</Filter>
     </ClCompile>
@@ -851,6 +848,9 @@
     </ClCompile>
     <ClCompile Include="[백준 실버 1] 1932번.cpp">
       <Filter>소스 파일\동적 계획법 1</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 2] 2178번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
