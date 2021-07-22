@@ -36,7 +36,7 @@ vector<vector<bool>> visited;
 vector<pii> nodes;
 vector<piii> edges;
 
-void getDistance(int x, int y, int start);
+void getAllDistance(int x, int y, int start);
 void kruskal();
 int findParent(int x);
 void unionParent(int a, int b);
@@ -62,7 +62,7 @@ int main() {
 	}
 
 	for (int i = 0; i < nodes.size(); ++i) {
-		getDistance(nodes[i].first, nodes[i].second, i+1);
+		getAllDistance(nodes[i].first, nodes[i].second, i+1);
 	}
 	
 	kruskal();
@@ -72,7 +72,7 @@ int main() {
 	return 0;
 }
 
-void getDistance(int x, int y, int start) {
+void getAllDistance(int x, int y, int start) {
 	visited.assign(N, vector<bool>(N, false));
 	queue<pii> q;
 	
@@ -132,10 +132,10 @@ void kruskal() {
 		}
 	}
 
-	int p = findParent(1);
+	int p = parent[1];
 
 	for (int i = 2; i <= nodeNum; ++i) {
-		if (p != findParent(i)) {
+		if (p != parent[i]) {
 			answer = -1;
 		}
 	}
