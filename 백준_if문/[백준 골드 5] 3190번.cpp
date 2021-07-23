@@ -9,7 +9,7 @@ typedef pair<int, char> pic;
 
 int N, K, L, X;
 char C;
-int arr[100][100] = { 0,};
+int arr[100][100] = { 0, };
 // 동, 남, 서, 북
 int dx[] = { 0,1,0,-1 };
 int dy[] = { 1,0,-1,0 };
@@ -58,7 +58,7 @@ int move(int x, int y) {
 
 		// 다음 칸이 뱀의 몸통이 아니고, 벽이 아닐 경우
 		if (arr[nx][ny] != 2 && 0 <= nx && nx < N && 0 <= ny && ny < N) {
-			
+
 			// 다음 칸이 사과일 경우
 			if (arr[nx][ny] == 1) {
 				arr[nx][ny] = 2;
