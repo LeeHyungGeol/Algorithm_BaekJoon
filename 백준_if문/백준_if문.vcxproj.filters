@@ -864,5 +864,8 @@
     <ClCompile Include="[백준 실버 2] 11047번.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="[이코테_이론편_실전문제] 큰 수의 법칙.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
