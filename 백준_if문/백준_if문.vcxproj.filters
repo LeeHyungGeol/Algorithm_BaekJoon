@@ -354,9 +354,6 @@
     <ClCompile Include="동적 계획법 1_쉬운 계단 수.cpp">
       <Filter>소스 파일\동적 계획법 1</Filter>
     </ClCompile>
-    <ClCompile Include="그리디 알고리즘_동전 0.cpp">
-      <Filter>소스 파일\그리디 알고리즘</Filter>
-    </ClCompile>
     <ClCompile Include="그리디 알고리즘_ATM.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
@@ -862,6 +859,9 @@
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
     <ClCompile Include="[이코테_이론편_실전문제] 거스름돈.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 2] 11047번.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
