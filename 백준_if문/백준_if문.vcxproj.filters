@@ -873,5 +873,11 @@
     <ClCompile Include="[이코테_이론편_실전문제] 1이 될 때까지.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 5] 21278번.cpp">
+      <Filter>소스 파일\최단 경로</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 2] 2623번.cpp">
+      <Filter>소스 파일\위상정렬</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
