@@ -879,5 +879,8 @@
     <ClCompile Include="[백준 골드 2] 2623번.cpp">
       <Filter>소스 파일\위상정렬</Filter>
     </ClCompile>
+    <ClCompile Include="[이코테_알고리즘유형별기출문제] 모험가 길드.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
