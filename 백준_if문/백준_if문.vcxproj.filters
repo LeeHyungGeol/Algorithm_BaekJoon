@@ -882,5 +882,8 @@
     <ClCompile Include="[이코테_알고리즘유형별기출문제] 모험가 길드.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="[이코테_알고리즘유형별기출문제] 곱하기 혹은 더하기.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
