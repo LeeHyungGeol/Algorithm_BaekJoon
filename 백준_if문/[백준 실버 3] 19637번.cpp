@@ -1,6 +1,7 @@
 // 이분탐색 문제
 // 조건들을 입력 받고, 그에 대한 lower_bound()를 구해서 그 index에 맞는 값을 출력한다.
 
+// lower_bound() : 찾으려는 key 값보다 같거나 큰 숫자 가 배열 몇 번째에서 처음 등장 하는지 찾기 위함
 // lower_bound()를 직접 구현해도 된다.
 
 #include <iostream>
@@ -36,8 +37,8 @@ int main() {
 		cin >> num;
 		// int index = lower_bound(Limits.begin(), Limits.end(), num) - Limits.begin();
 		int index = first(Limits, num, 0, Limits.size() - 1);
-
-		cout << Names[index] << '\n';
+		cout << index << '\n' << '\n';
+		//cout << Names[index] << '\n';
 	}
 
 	return 0;
