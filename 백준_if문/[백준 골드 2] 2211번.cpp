@@ -1,3 +1,8 @@
+// 최단경로(다익스트라) 문제
+
+// parent[next] = cur : next의 parent는 cur이다.
+// Tree는 노드의 개수가 'N개'일 때, 간선의 개수는 항상 'N-1개'이다.
+
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -61,6 +66,7 @@ void dijkstra(int start) {
 
             if (cost < Dist[next]) {
                 Dist[next] = cost;
+                // next의 parrent는 cur이다.
                 Parent[next] = cur;
                 pq.push({ -cost, next });
             }
