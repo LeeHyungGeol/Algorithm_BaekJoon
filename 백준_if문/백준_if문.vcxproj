@@ -776,7 +776,7 @@
     <ClCompile Include="최단 경로_운동(플로이드 와샬 응용).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="최단 경로_타임머신(벨만포드 알고리즘)(음의 간선이 존재하는 경우).cpp">
+    <ClCompile Include="[백준 골드 4] 11657번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="최단 경로_특정한 최단경로%28다익스트라 응용%29.cpp">

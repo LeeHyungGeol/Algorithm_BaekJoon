@@ -465,9 +465,6 @@
     <ClCompile Include="최단 경로_다익스트라 알고리즘(기본)(노드수 5000개 이하).cpp">
       <Filter>소스 파일\최단 경로</Filter>
     </ClCompile>
-    <ClCompile Include="최단 경로_타임머신(벨만포드 알고리즘)(음의 간선이 존재하는 경우).cpp">
-      <Filter>소스 파일\최단 경로</Filter>
-    </ClCompile>
     <ClCompile Include="최단 경로_플로이드%28플로이드 워셜 알고리즘%29%28노드의 개수 500개 이하%29.cpp">
       <Filter>소스 파일\최단 경로</Filter>
     </ClCompile>
@@ -910,6 +907,9 @@
       <Filter>소스 파일\문자열 알고리즘 1</Filter>
     </ClCompile>
     <ClCompile Include="[백준 골드 5] 5972번.cpp">
+      <Filter>소스 파일\최단 경로</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 4] 11657번.cpp">
       <Filter>소스 파일\최단 경로</Filter>
     </ClCompile>
   </ItemGroup>
