@@ -306,9 +306,6 @@
     <ClCompile Include="정렬_좌표 정렬하기 2_좌표를 다른 순서로 정렬하는 문제.cpp">
       <Filter>소스 파일\정렬</Filter>
     </ClCompile>
-    <ClCompile Include="정렬_단어 정렬_단어의 순서를 정의하여 정렬하는 문제.cpp">
-      <Filter>소스 파일\정렬</Filter>
-    </ClCompile>
     <ClCompile Include="정렬_나이순 정렬_값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort).cpp">
       <Filter>소스 파일\정렬</Filter>
     </ClCompile>
@@ -905,6 +902,9 @@
     </ClCompile>
     <ClCompile Include="[백준 골드 5] 14940번.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 5] 1181번.cpp">
+      <Filter>소스 파일\정렬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

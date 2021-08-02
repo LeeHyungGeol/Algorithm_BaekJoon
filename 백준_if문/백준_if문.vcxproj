@@ -734,7 +734,7 @@
     <ClCompile Include="정렬_나이순 정렬_값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="정렬_단어 정렬_단어의 순서를 정의하여 정렬하는 문제.cpp">
+    <ClCompile Include="[백준 실버 5] 1181번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="정렬_소트인사이드_숫자를 정렬하는 문제.cpp">
