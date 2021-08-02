@@ -662,7 +662,7 @@
     <ClCompile Include="위상 정렬_ACM Craft(1005번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="위상 정렬_문제집(1766번).cpp">
+    <ClCompile Include="[백준 골드 2] 1766번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="위상 정렬_위상 정렬 구현.cpp">

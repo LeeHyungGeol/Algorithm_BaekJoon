@@ -609,9 +609,6 @@
     <ClCompile Include="위상 정렬_ACM Craft(1005번).cpp">
       <Filter>소스 파일\위상정렬</Filter>
     </ClCompile>
-    <ClCompile Include="위상 정렬_문제집(1766번).cpp">
-      <Filter>소스 파일\위상정렬</Filter>
-    </ClCompile>
     <ClCompile Include="최소 공통 조상_LCA(11437번).cpp">
       <Filter>소스 파일\최소 공통 조상</Filter>
     </ClCompile>
@@ -911,6 +908,9 @@
     </ClCompile>
     <ClCompile Include="[백준 골드 4] 11657번.cpp">
       <Filter>소스 파일\최단 경로</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 2] 1766번.cpp">
+      <Filter>소스 파일\위상정렬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
