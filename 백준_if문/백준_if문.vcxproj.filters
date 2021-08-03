@@ -912,5 +912,8 @@
     <ClCompile Include="[백준 골드 2] 1766번.cpp">
       <Filter>소스 파일\위상정렬</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 3] 11780번.cpp">
+      <Filter>소스 파일\최단 경로</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
