@@ -915,5 +915,8 @@
     <ClCompile Include="[백준 골드 3] 11780번.cpp">
       <Filter>소스 파일\최단 경로</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 2] 7511번.cpp">
+      <Filter>소스 파일\유니온 파인드</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
