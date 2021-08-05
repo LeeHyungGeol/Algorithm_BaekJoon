@@ -76,9 +76,6 @@
     <Filter Include="소스 파일\최단 경로">
       <UniqueIdentifier>{96d35cd1-edf5-48b4-b51b-135e8260eb47}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\동적 계획법 3">
-      <UniqueIdentifier>{24d02ecc-33ea-4b59-ba14-5de48304d2cf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\동적 계획법과 최단거리 역추적">
       <UniqueIdentifier>{ab010c71-d445-4908-b4df-03b8f61f52b8}</UniqueIdentifier>
     </Filter>
@@ -114,6 +111,9 @@
     </Filter>
     <Filter Include="소스 파일\세그먼트 트리">
       <UniqueIdentifier>{e68dfed5-df91-4c19-b85c-d9d4d1329fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\동적 계획법 3">
+      <UniqueIdentifier>{24d02ecc-33ea-4b59-ba14-5de48304d2cf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -920,6 +920,9 @@
     </ClCompile>
     <ClCompile Include="[백준 골드 4] 9489번.cpp">
       <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 5] 1251번.cpp">
+      <Filter>소스 파일\문자열</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
