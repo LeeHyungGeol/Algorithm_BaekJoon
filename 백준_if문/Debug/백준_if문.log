@@ -1,8 +1,4 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (백준_if문.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   [백준 실버 5] 1316번.cpp
-C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\[백준 실버 5] 1316번.cpp(15,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  트리에서의 동적 계획법_트리와 쿼리(15681번).cpp
-  코드를 생성하고 있습니다...
-트리에서의 동적 계획법_트리와 쿼리(15681번).obj : error LNK2005: _main이(가) [백준 실버 5] 1316번.obj에 이미 정의되어 있습니다.
-트리에서의 동적 계획법_트리와 쿼리(15681번).obj : error LNK2005: "int N" (?N@@3HA)이(가) [백준 실버 5] 1316번.obj에 이미 정의되어 있습니다.
-C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\Debug\백준_알고리즘문제풀이.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\백준_if문\[백준 실버 5] 1316번.cpp(28,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  백준_if문.vcxproj -> C:\Users\LeeHyungGeol\source\repos\백준_알고리즘문제풀이\Debug\백준_알고리즘문제풀이.exe
