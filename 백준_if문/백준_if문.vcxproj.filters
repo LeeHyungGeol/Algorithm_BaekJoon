@@ -168,9 +168,6 @@
     <ClCompile Include="while문_더하기 사이클.cpp">
       <Filter>소스 파일\while문</Filter>
     </ClCompile>
-    <ClCompile Include="문자열_그룹 단어 체커.cpp">
-      <Filter>소스 파일\문자열</Filter>
-    </ClCompile>
     <ClCompile Include="문자열_다이얼.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
@@ -564,9 +561,6 @@
     <ClCompile Include="트리에서의 동적 계획법_ 트리의 독립집합(2213번).cpp">
       <Filter>소스 파일\트리에서의 동적 계획법</Filter>
     </ClCompile>
-    <ClCompile Include="트리에서의 동적 계획법_트리와 쿼리%2815681번%29.cpp">
-      <Filter>소스 파일\트리에서의 동적 계획법</Filter>
-    </ClCompile>
     <ClCompile Include="트리에서의 동적 계획법_ 사회망 서비스(SNS)(2533번).cpp">
       <Filter>소스 파일\트리에서의 동적 계획법</Filter>
     </ClCompile>
@@ -923,6 +917,12 @@
     </ClCompile>
     <ClCompile Include="[백준 실버 5] 1251번.cpp">
       <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 5] 1316번.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 5] 15681번.cpp">
+      <Filter>소스 파일\트리에서의 동적 계획법</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
