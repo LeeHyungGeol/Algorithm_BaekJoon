@@ -17,6 +17,7 @@ int N, M, Answer = MAX;
 vector<piiii> Cameras;
 vector<vector<int>> Graph;
 vector<vector<int>> Temp;
+vector<int> Angles;
 
 void dfs(int cnt);
 void check();
@@ -54,7 +55,14 @@ void dfs(int cnt) {
 		return;
 	}
 
-	Cameras[cnt].second.second = 0;
+	// 조합을 구현하는 법을 잘 기억해두자!!
+	for (int i = 0; i < 4; ++i) {
+		Angles.push_back(i);
+		dfs(cnt + 1);
+		Angles.pop_back();
+	}
+
+	/*Cameras[cnt].second.second = 0;
 	dfs(cnt + 1);
 
 	Cameras[cnt].second.second = 1;
@@ -64,7 +72,7 @@ void dfs(int cnt) {
 	dfs(cnt + 1);
 
 	Cameras[cnt].second.second = 3;
-	dfs(cnt + 1);
+	dfs(cnt + 1);*/
 }
 
 void check() {
@@ -74,6 +82,10 @@ void check() {
 		for (int j = 0; j < M; ++j) {
 			Temp[i][j] = Graph[i][j];
 		}
+	}
+
+	for (int i = 0; i < Angles.size(); ++i) {
+		Cameras[i].second.second = Angles[i];
 	}
 
 	for (int i = 0; i < Cameras.size(); ++i) {
