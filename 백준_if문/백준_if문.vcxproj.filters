@@ -951,5 +951,8 @@
     <ClCompile Include="[백준 실버 1] 11123번.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 실버 1] 19439번.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
