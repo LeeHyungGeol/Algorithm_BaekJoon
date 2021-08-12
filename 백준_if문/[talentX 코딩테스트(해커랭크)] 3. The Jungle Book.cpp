@@ -1,10 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <queue>
 
 using namespace std;
-
-string ltrim(const string&);
-string rtrim(const string&);
-
 
 /*
  * Complete the 'minimumGroups' function below.
