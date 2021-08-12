@@ -67,9 +67,6 @@
     <Filter Include="소스 파일\우선순위 큐">
       <UniqueIdentifier>{aba61d9f-c7f1-4dca-b7a1-f4ac2f63115b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\동적 계획법 2">
-      <UniqueIdentifier>{103cdf99-b58a-4b82-99de-70846f26f361}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\DFS, BFS">
       <UniqueIdentifier>{393336d3-f3f3-427b-b59d-0cbd10afbc8b}</UniqueIdentifier>
     </Filter>
@@ -114,6 +111,9 @@
     </Filter>
     <Filter Include="소스 파일\동적 계획법 3">
       <UniqueIdentifier>{24d02ecc-33ea-4b59-ba14-5de48304d2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\동적 계획법 2">
+      <UniqueIdentifier>{103cdf99-b58a-4b82-99de-70846f26f361}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -962,6 +962,15 @@
     </ClCompile>
     <ClCompile Include="[백준 실버 2] 20364번.cpp">
       <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="[talentX 코딩테스트(해커랭크)] 2. Longest Increasing Subsequences.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[talentX 코딩테스트%28해커랭크%29] 1. Closest Random Points.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[talentX 코딩테스트%28해커랭크%29] 3. The Jungle Book.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
