@@ -540,9 +540,6 @@
     <ClCompile Include="유니온 파인드_친구 네트워크(4195번).cpp">
       <Filter>소스 파일\유니온 파인드</Filter>
     </ClCompile>
-    <ClCompile Include="최소 신장 트리_ 상근이의 여행(9372번).cpp">
-      <Filter>소스 파일\최소 신장 트리</Filter>
-    </ClCompile>
     <ClCompile Include="최소 신장 트리_최소 스패닝 트리(1197번).cpp">
       <Filter>소스 파일\최소 신장 트리</Filter>
     </ClCompile>
@@ -971,6 +968,9 @@
     </ClCompile>
     <ClCompile Include="[talentX 코딩테스트%28해커랭크%29] 3. The Jungle Book.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 4] 9372번.cpp">
+      <Filter>소스 파일\최소 신장 트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

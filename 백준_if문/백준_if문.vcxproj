@@ -866,7 +866,7 @@
     <ClCompile Include="최소 공통 조상_합성함수와 쿼리(17435번).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="최소 신장 트리_ 상근이의 여행(9372번).cpp">
+    <ClCompile Include="[백준 실버 4] 9372번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="최소 신장 트리_별자리 만들기(4386번).cpp">
