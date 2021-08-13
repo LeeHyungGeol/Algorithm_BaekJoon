@@ -972,5 +972,8 @@
     <ClCompile Include="[백준 실버 4] 9372번.cpp">
       <Filter>소스 파일\최소 신장 트리</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 실버 1] 11265번.cpp">
+      <Filter>소스 파일\최단 경로</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
