@@ -990,11 +990,11 @@
     <ClCompile Include="[백준 실버 1] 16206번.cpp">
       <Filter>소스 파일\그리디 알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="[백준 골드 3] 17616번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="[백준 골드 4] 14676번.cpp">
       <Filter>소스 파일\위상정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 3] 17616번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
