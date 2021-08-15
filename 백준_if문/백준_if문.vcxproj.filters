@@ -115,6 +115,9 @@
     <Filter Include="소스 파일\동적 계획법 2">
       <UniqueIdentifier>{103cdf99-b58a-4b82-99de-70846f26f361}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\해쉬를 사용한 집합과 맵">
+      <UniqueIdentifier>{711b14b6-18fd-4c3d-b95c-11c31db5b9b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -977,6 +980,21 @@
     </ClCompile>
     <ClCompile Include="[백준 골드 5] 15723번.cpp">
       <Filter>소스 파일\최단 경로</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 3] 18500번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 4] 10546번.cpp">
+      <Filter>소스 파일\해쉬를 사용한 집합과 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 1] 16206번.cpp">
+      <Filter>소스 파일\그리디 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 4] 14676번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 3] 17616번.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
