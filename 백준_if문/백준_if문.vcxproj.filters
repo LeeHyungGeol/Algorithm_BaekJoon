@@ -981,9 +981,6 @@
     <ClCompile Include="[백준 골드 5] 15723번.cpp">
       <Filter>소스 파일\최단 경로</Filter>
     </ClCompile>
-    <ClCompile Include="[백준 골드 3] 18500번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="[백준 실버 4] 10546번.cpp">
       <Filter>소스 파일\해쉬를 사용한 집합과 맵</Filter>
     </ClCompile>
@@ -995,6 +992,9 @@
     </ClCompile>
     <ClCompile Include="[백준 골드 3] 17616번.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 3] 18500번.cpp">
+      <Filter>소스 파일\구현</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
