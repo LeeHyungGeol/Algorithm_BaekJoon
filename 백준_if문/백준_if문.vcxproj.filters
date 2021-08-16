@@ -999,5 +999,8 @@
     <ClCompile Include="[백준 골드 2] 2933번.cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 실버 3] 14627번.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
