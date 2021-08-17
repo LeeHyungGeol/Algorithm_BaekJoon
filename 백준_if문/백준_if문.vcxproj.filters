@@ -1003,7 +1003,10 @@
       <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
     <ClCompile Include="[백준 실버 1] 11568번.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 2] 1561번.cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
