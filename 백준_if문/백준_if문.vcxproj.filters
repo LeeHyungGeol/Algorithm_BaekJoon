@@ -1017,5 +1017,8 @@
     <ClCompile Include="[백준 골드 4] 18223번.cpp">
       <Filter>소스 파일\최단 경로</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 3] 16985번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
