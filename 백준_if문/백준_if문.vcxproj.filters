@@ -1026,5 +1026,8 @@
     <ClCompile Include="[백준 실버 1] 12101번.cpp">
       <Filter>소스 파일\백트랙킹</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 실버 4] 1620번.cpp">
+      <Filter>소스 파일\해쉬를 사용한 집합과 맵</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
