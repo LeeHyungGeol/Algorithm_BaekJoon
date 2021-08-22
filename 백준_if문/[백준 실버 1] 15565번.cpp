@@ -1,3 +1,5 @@
+// 투 포인터(two pointer), 슬라이딩 윈도우(sliding window)
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
