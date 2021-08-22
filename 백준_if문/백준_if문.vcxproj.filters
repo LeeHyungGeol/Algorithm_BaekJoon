@@ -118,6 +118,9 @@
     <Filter Include="소스 파일\해쉬를 사용한 집합과 맵">
       <UniqueIdentifier>{711b14b6-18fd-4c3d-b95c-11c31db5b9b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\투 포인터">
+      <UniqueIdentifier>{3499facb-5c33-4e9f-b8bb-a00a5d639ba1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="문자열 반복_문자열.cpp">
@@ -1028,6 +1031,18 @@
     </ClCompile>
     <ClCompile Include="[백준 실버 4] 1620번.cpp">
       <Filter>소스 파일\해쉬를 사용한 집합과 맵</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 5] 2204번.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 1] 15565번.cpp">
+      <Filter>소스 파일\투 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 5] 16432번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 3] 12896번.cpp">
+      <Filter>소스 파일\트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
