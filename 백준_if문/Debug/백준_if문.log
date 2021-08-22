@@ -1,4 +1,2 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(백준_if문.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-  [백준 골드 3] 12896번.cpp
-C:\Users\강원진\source\repos\Algorithm_BaekJoon\백준_if문\[백준 골드 3] 12896번.cpp(44,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   백준_if문.vcxproj -> C:\Users\강원진\source\repos\Algorithm_BaekJoon\Debug\백준_알고리즘문제풀이.exe
