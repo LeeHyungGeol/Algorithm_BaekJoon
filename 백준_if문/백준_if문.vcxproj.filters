@@ -186,7 +186,7 @@
     <ClCompile Include="문자열_상수.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
-    <ClCompile Include="문자열_숫자의 합.cpp">
+    <ClCompile Include="[백준 브론즈 2] 11720번.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
     <ClCompile Include="문자열_아스키 코드.cpp">
@@ -1043,6 +1043,9 @@
     </ClCompile>
     <ClCompile Include="[백준 골드 3] 12896번.cpp">
       <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 브론즈 3] 3029번.cpp">
+      <Filter>소스 파일\문자열</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
