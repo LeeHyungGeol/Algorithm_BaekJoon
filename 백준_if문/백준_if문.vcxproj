@@ -242,7 +242,11 @@
     <ClCompile Include="[백준 골드 5] 5972번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="[백준 브론즈 1] 10798번.cpp" />
     <ClCompile Include="[백준 브론즈 2] 11365번.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="[백준 브론즈 2] 9046번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="[백준 브론즈 3] 3029번.cpp">
