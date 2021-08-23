@@ -1056,5 +1056,8 @@
     <ClCompile Include="[백준 브론즈 1] 10798번.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 브론즈 1] 20154번.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
