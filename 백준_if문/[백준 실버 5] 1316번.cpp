@@ -9,6 +9,53 @@
 
 using namespace std;
 
+int N, Answer;
+string Str;
+vector<int> Alphabet;
+
+int main() {
+	cin >> N;
+
+	for (int i = 0; i < N; ++i) {
+		bool flag = true;
+
+		cin >> Str;
+
+		Alphabet.assign(26, 0);
+
+		for (int i = 0; i < Str.length(); ++i) {
+			if (Alphabet[Str[i] - 'a'] == 0) {
+				++Alphabet[Str[i] - 'a'];
+			}
+			else {
+				if (Str[i] == Str[i - 1]) {
+					continue;
+				}
+				else {
+					flag = false;
+					break;
+				}
+			}
+		}
+
+		if (flag) {
+			++Answer;
+		}
+	}
+
+	cout << Answer << '\n';
+
+	return 0;
+}
+
+//------------- 예전 풀이 -----------------------//
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
 int N, Count;
 vector<int> Alphabet(101, 0);
 string str;
