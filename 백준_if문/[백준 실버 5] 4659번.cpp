@@ -77,7 +77,6 @@ bool conditionTwo(string str) {
 
 bool conditionThree(string str) {
 	bool flag = true;
-	int countConsonant = 0, countVowel = 0;
 
 	for (int i = 0; i < str.length(); ++i) {
 		if (str[i] == str[i + 1]) {
