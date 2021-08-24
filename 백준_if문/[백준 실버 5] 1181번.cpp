@@ -6,6 +6,52 @@
 // 혹은 v.erase(unique(v.begin(), v.end()), v.end()); 를 사용해도 된다.
 
 #include <iostream>
+#include <set>
+#include <vector>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+int N;
+set<string> Set;
+vector<string> Words;
+
+bool compare(const string& a, const string& b);
+
+int main() {
+	int N;
+
+	cin >> N;
+
+	for (int i = 0; i < N; ++i) {
+		string str;
+		cin >> str;
+		Set.insert(str);
+	}
+
+	Words.assign(Set.begin(), Set.end());
+
+	sort(Words.begin(), Words.end(), compare);
+
+	for (string word : Words) {
+		cout << word << '\n';
+	}
+
+	return 0;
+}
+
+bool compare(const string& a, const string& b) {
+	if (a.length() == b.length()) {
+		return a < b;
+	}
+	return a.length() < b.length();
+}
+
+//-------------------예전 풀이-----------------------------//
+
+
+#include <iostream>
 #include <algorithm>
 #include <vector>
 #include <string>
