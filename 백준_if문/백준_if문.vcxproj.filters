@@ -1077,5 +1077,8 @@
     <ClCompile Include="[백준 실버 4] 1764번.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 실버 4] 20291번.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
