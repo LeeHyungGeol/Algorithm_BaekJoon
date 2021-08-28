@@ -894,9 +894,6 @@
     <ClCompile Include="[백준 골드 5] 14940번.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
-    <ClCompile Include="[백준 골드 5] 16916번.cpp">
-      <Filter>소스 파일\문자열 알고리즘 1</Filter>
-    </ClCompile>
     <ClCompile Include="[백준 골드 5] 5972번.cpp">
       <Filter>소스 파일\최단 경로</Filter>
     </ClCompile>
@@ -1087,6 +1084,12 @@
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
     <ClCompile Include="[백준 골드 5] 20437번.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 5] 16916번.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 2] 20210번.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
   </ItemGroup>
