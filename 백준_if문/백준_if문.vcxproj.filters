@@ -516,9 +516,6 @@
     <ClCompile Include="동적 계획법과 최단거리 역추적_LCS 2.cpp">
       <Filter>소스 파일\동적 계획법과 최단거리 역추적</Filter>
     </ClCompile>
-    <ClCompile Include="동적 계획법과 최단거리 역추적_숨바꼭질 4.cpp">
-      <Filter>소스 파일\동적 계획법과 최단거리 역추적</Filter>
-    </ClCompile>
     <ClCompile Include="동적 계획법과 최단거리 역추적_최소비용 구하기 2.cpp">
       <Filter>소스 파일\동적 계획법과 최단거리 역추적</Filter>
     </ClCompile>
@@ -1086,11 +1083,20 @@
     <ClCompile Include="[백준 골드 5] 20437번.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
-    <ClCompile Include="[백준 골드 5] 16916번.cpp">
+    <ClCompile Include="[백준 골드 4] 16916번.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
     <ClCompile Include="[백준 골드 2] 20210번.cpp">
       <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 4] 13913번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 4] 14923번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 3] 14621번.cpp">
+      <Filter>소스 파일\최소 신장 트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
