@@ -1,3 +1,5 @@
+// 최소 신장 트리(MST),(트리의 간선 수는 N-1 개)
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
