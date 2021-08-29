@@ -1,3 +1,5 @@
+// bfs(최단 경로)(숫자 하나를 Visited node로 생각)
+
 #include <iostream>
 #include <vector>
 #include <queue>
