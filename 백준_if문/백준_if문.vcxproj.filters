@@ -1098,5 +1098,11 @@
     <ClCompile Include="[백준 골드 3] 14621번.cpp">
       <Filter>소스 파일\최소 신장 트리</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 실버 2] 2529번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 골드 4] 16168번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
