@@ -1,3 +1,9 @@
+// dfs, 오일러 경로
+
+// 오일러 경로에 대해 좀 더 공부해봐야겠다.
+// https://aren227.me/eulerian-circuit-and-trail/
+// 해당 링크에 설명이 잘 되어있다. 다시 한번 꼭 읽어보자.
+
 #include <iostream>
 #include <vector>
 
