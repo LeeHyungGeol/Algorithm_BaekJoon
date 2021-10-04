@@ -1113,5 +1113,8 @@
     <ClCompile Include="[백준 골드 5] 17471번.cpp">
       <Filter>소스 파일\DFS, BFS</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 4] 2922번.cpp">
+      <Filter>소스 파일\DFS, BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
