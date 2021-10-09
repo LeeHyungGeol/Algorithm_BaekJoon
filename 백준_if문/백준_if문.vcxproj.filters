@@ -1125,5 +1125,8 @@
     <ClCompile Include="[백준 골드 4] 17406번.cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 4] 1022번.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
