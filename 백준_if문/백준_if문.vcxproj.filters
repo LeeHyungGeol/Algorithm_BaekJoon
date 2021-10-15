@@ -141,9 +141,6 @@
     <ClCompile Include="if문_시험 성적.cpp">
       <Filter>소스 파일\if문</Filter>
     </ClCompile>
-    <ClCompile Include="if문_윤년.cpp">
-      <Filter>소스 파일\if문</Filter>
-    </ClCompile>
     <ClCompile Include="for문_1부터 N까지 출력하는 문제.cpp">
       <Filter>소스 파일\for문</Filter>
     </ClCompile>
@@ -1129,6 +1126,9 @@
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
     <ClCompile Include="[백준 실버 1] 21608번.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="[백준 브론즈 4] 2753번.cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
   </ItemGroup>
