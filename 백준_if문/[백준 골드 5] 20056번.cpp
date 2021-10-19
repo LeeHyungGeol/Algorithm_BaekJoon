@@ -50,13 +50,14 @@ void moveFireball() {
 
 	for (int i = 0; i < Fireballs.size(); ++i) {
 		Fireball cur = Fireballs[i];
-		int nx = cur.x + (Dx[cur.d] * cur.s);
-		int ny = cur.y + (Dy[cur.d] * cur.s);
+		int move = cur.s % N;
+		int nx = cur.x + (Dx[cur.d] * move);
+		int ny = cur.y + (Dy[cur.d] * move);
 
-		while (nx < 1) nx += N; 
-		while (ny < 1) ny += N;
-		while (nx > N) nx -= N;
-		while (ny > N) ny -= N;
+		if (nx < 1) nx += N;
+		if (ny < 1) ny += N;
+		if (nx > N) nx -= N;
+		if (ny > N) ny -= N;
 
 		Arr[nx][ny].push_back({ nx,ny,cur.m, cur.s, cur.d });
 	}
