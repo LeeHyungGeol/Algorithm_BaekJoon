@@ -39,20 +39,26 @@ int main() {
 			seongMin.cash += seongMin.stocks * Arr[i];
 			seongMin.stocks = 0;
 			up = 0;
+			down = 0;
+			before = cur;
 			continue;
 		}
 		else if (down == 3) {
 			seongMin.cash -= (nowStock * Arr[i]);
 			seongMin.stocks += nowStock;
 			down = 0;
+			up = 0;
+			before = cur;
 			continue;
 		}
 		
 		if (cur > before) {
 			++up;
+			down = 0;
 		}
 		else if (cur < before) {
 			++down;
+			up = 0;
 		}
 		else if (cur == before) {
 			up = 0;
