@@ -16,8 +16,10 @@ int main() {
 		cin >> a >> b;
 		if (Arr[a] == -1) Arr[a] = b;
 		else {
-			if (Arr[a] == b) continue;
-			else ++Answer;
+			if (Arr[a] != b) {
+				++Answer;
+				Arr[a] = b;
+			}
 		}
 	}
 
