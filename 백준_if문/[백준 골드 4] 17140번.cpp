@@ -13,8 +13,8 @@ int Counter[101];
 
 void operateR();
 void operateC();
-void rotate();
 bool compare(const pii& a, const pii& b);
+void rotate();
 
 int main() {
 	cin >> r >> c >> k;
