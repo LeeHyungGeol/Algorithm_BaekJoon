@@ -254,6 +254,7 @@
     <ClCompile Include="[백준 골드 4] 19238번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="[백준 골드 4] 20057번.cpp" />
     <ClCompile Include="[백준 골드 4] 20058번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
