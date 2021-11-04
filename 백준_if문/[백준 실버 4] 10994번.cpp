@@ -1,5 +1,3 @@
-// º°Âï±â, ±¸Çö, Àç±Í ¹®Á¦
-
 #include <iostream>
 #include <vector>
 
@@ -8,13 +6,14 @@ using namespace std;
 int N;
 vector<vector<char>> Arr;
 
-void recursive(int n, int x, int y);
+void printStars(int x, int y, int n);
 
 int main() {
 	cin >> N;
-	Arr.resize(4 * N - 3, vector<char>(4 * N - 3, ' '));
 
-	recursive(N, 0, 0);
+	Arr.assign(4*N-3, vector<char>(4*N-3, ' '));
+	
+	printStars(0,0,N);
 
 	for (int i = 0; i < 4 * N - 3; ++i) {
 		for (int j = 0; j < 4 * N - 3; ++j) {
@@ -26,24 +25,23 @@ int main() {
 	return 0;
 }
 
-void recursive(int n, int x, int y) {
+void printStars(int x, int y, int n) {
 	if (n == 1) {
 		Arr[x][y] = '*';
 		return;
 	}
 
-	int length = 4 * n - 3;
+	int size = 4 * n - 3;
 
-	for (int j = y; j < y + length; ++j) {
-		Arr[x][j] = '*';
-		Arr[x + length - 1][j] = '*';
-	}
-
-	for (int i = x; i < x + length; ++i) {
+	for (int i = x; i < x+size; ++i) {
 		Arr[i][y] = '*';
-		Arr[i][y + length - 1] = '*';
+		Arr[i][y + size - 1] = '*';
 	}
 
-	recursive(n - 1, x + 2, y + 2);
-	return;
+	for (int i = y; i < y+size; ++i) {
+		Arr[x][i] = '*';
+		Arr[x + size - 1][i] = '*';
+	}
+
+	printStars(x + 2, y + 2, n - 1);
 }
