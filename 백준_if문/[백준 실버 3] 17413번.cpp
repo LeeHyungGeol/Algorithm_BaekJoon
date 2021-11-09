@@ -24,11 +24,6 @@ int main() {
 			continue;
 		}
 		else if (S[i] == '>') {
-			if (!str.empty()) {
-				reverse(str.begin(), str.end());
-				cout << str;
-				str.clear();
-			}
 			cout << S[i];
 			flag = false;
 			continue;
