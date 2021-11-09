@@ -1,57 +1,55 @@
-// 문자열, Stack, 구현
-// 다음에는 Stack으로 구현해보자.
-
 #include <iostream>
 #include <string>
 #include <algorithm>
 
 using namespace std;
 
-string S, Answer;
+string S;
 
 int main() {
 	getline(cin, S);
 
-	bool isInTag = false;
-	string tag = "", notTag = "";
+	bool flag = false;
+	string str = "";
 
 	for (int i = 0; i < S.length(); ++i) {
 		if (S[i] == '<') {
-			if (!notTag.empty()) {
-				reverse(notTag.begin(), notTag.end());
-				cout << notTag;
-				notTag.clear();
+			if (!str.empty()) {
+				reverse(str.begin(), str.end());
+				cout << str;
+				str.clear();
 			}
-
-			isInTag = true;
-			cout << '<';
+			cout << S[i];
+			flag = true;
 			continue;
 		}
-		if (S[i] == '>') {
-			isInTag = false;
-			cout << tag << '>';
-			tag.clear();
+		else if (S[i] == '>') {
+			if (!str.empty()) {
+				reverse(str.begin(), str.end());
+				cout << str;
+				str.clear();
+			}
+			cout << S[i];
+			flag = false;
 			continue;
 		}
-		if (isInTag) {
-			tag += S[i];
+		if (flag) {
+			cout << S[i];
+			continue;
 		}
-		if (!isInTag) {
-			if (isalpha(S[i]) || isdigit(S[i])) {
-				notTag += S[i];
-			}
-			else {
-				reverse(notTag.begin(), notTag.end());
-				cout << notTag << ' ';
-				notTag.clear();
-			}
+		if (S[i] == ' ' && !str.empty()) {
+			reverse(str.begin(), str.end());
+			cout << str << ' ';
+			str.clear();
+			continue;
 		}
+		str.push_back(S[i]);
 	}
 
-	if (!notTag.empty()) {
-		reverse(notTag.begin(), notTag.end());
-		cout << notTag << ' ';
-		notTag.clear();
+	if (!str.empty()) {
+		reverse(str.begin(), str.end());
+		cout << str;
+		str.clear();
 	}
 
 	return 0;
