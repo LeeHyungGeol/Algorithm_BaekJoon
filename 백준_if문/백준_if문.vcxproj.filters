@@ -1239,5 +1239,8 @@
     <ClCompile Include="[백준 실버 1] 17276번.cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 실버 1] 20207번.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

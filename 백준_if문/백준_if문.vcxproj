@@ -386,7 +386,10 @@
     <ClCompile Include="[백준 실버 1] 16206번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="[백준 실버 1] 17276번.cpp" />
+    <ClCompile Include="[백준 실버 1] 17276번.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="[백준 실버 1] 20207번.cpp" />
     <ClCompile Include="[백준 실버 1] 21608번.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
