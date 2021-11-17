@@ -32,11 +32,9 @@ void operation(string n, int total) {
 	}
 	else if (n.length() == 2) {
 		int result = countOdd(n);
-		int sum = (n[0] - '0') + (n[1] - '0');
-		string newNum = to_string(sum);
-		operation(newNum, total + result);
+		operation(to_string((n[0] - '0') + (n[1] - '0')), total + result);
 	}
-	else if(n.length() >= 3){
+	else {
 		vector<bool> select(n.length() - 1, false);
 		dfs(n, select,total, 0, 0);
 	}
@@ -46,7 +44,7 @@ void dfs(string n, vector<bool>& select,int total, int startIndex, int cnt) {
 	if (cnt == 2) {
 		vector<int> index;
 
-		for (int i = 0; select.size(); ++i) {
+		for (int i = 0; i < select.size(); ++i) {
 			if (select[i]) index.push_back(i);
 		}
 		
@@ -54,8 +52,7 @@ void dfs(string n, vector<bool>& select,int total, int startIndex, int cnt) {
 		string n1 = n.substr(0, index[0] + 1);
 		string n2 = n.substr(index[0] + 1, index[1] - index[0]);
 		string n3 = n.substr(index[1] + 1);
-		string newNum = to_string(stoi(n1) + stoi(n2) + stoi(n3));
-		operation(newNum, total + result);
+		operation(to_string(stoi(n1) + stoi(n2) + stoi(n3)), total + result);
 		return;
 	}
 
