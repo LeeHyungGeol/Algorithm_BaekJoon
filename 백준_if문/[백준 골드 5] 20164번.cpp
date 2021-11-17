@@ -1,91 +1,77 @@
-// 구현, 재귀, 조합 문제
-
 #include <iostream>
 #include <vector>
 #include <string>
+#include <climits>
 #include <algorithm>
-
-#define INF 1e9
 
 using namespace std;
 
-int Min = INF, Max = 0;
-string Str;
+int Max = -INT_MAX, Min = INT_MAX;
+string N;
 
-void makeOdd(string s, int total);
-int check(string s);
-void dfs(string s, int total, vector<bool>& select, int startIndex, int cnt);
+int countOdd(string str);
+void operation(string n, int total);
+void dfs(string n, vector<bool>& select, int total, int startIndex, int cnt);
 
 int main() {
-	cin >> Str;
+	cin >> N;
 
-	makeOdd(Str, 0);
-	
+	operation(N, 0);
+
 	cout << Min << ' ' << Max << '\n';
 
 	return 0;
 }
 
-void makeOdd(string s, int total) {
-	if (s.length() == 1) {
-		total += check(s);
-		Min = min(Min, total);
+void operation(string n, int total) {
+	if (n.length() == 1) {
+		total += countOdd(n);
 		Max = max(Max, total);
+		Min = min(Min, total);
 		return;
 	}
-	else if (s.length() == 2) {
-		string s1 = "", s2 = "";
-		s1 += s[0];
-		s2 += s[1];
-
-		string newStr = to_string(s[0] - '0' + s[1] - '0');
-		int newCount = check(s1) + check(s2);
-		makeOdd(newStr, total + newCount);
+	else if (n.length() == 2) {
+		int result = countOdd(n);
+		int sum = (n[0] - '0') + (n[1] - '0');
+		string newNum = to_string(sum);
+		operation(newNum, total + result);
 	}
-	else if (s.length() >= 3) {
-		vector<bool> select(s.length() - 1, false);
-		dfs(s, total, select,0, 0);
+	else if(n.length() >= 3){
+		vector<bool> select(n.length() - 1, false);
+		dfs(n, select,total, 0, 0);
 	}
 }
 
-int check(string s) {
-	int cnt = 0;
-
-	for (int i = 0; i < s.length(); ++i) {
-		if ((s[i] - '0') % 2 == 1) {
-			++cnt;
-		}
-	}
-
-	return cnt;
-}
-
-void dfs(string s, int total, vector<bool>& select, int startIndex, int cnt) {
+void dfs(string n, vector<bool>& select,int total, int startIndex, int cnt) {
 	if (cnt == 2) {
-		vector<int> selected;
-		
-		for (int i = 0; i < select.size(); ++i) {
-			if (select[i]) {
-				selected.push_back(i);
-			}
+		vector<int> index;
+
+		for (int i = 0; select.size(); ++i) {
+			if (select[i]) index.push_back(i);
 		}
-
-		string s1 = s.substr(0, selected[0] + 1);
-		string s2 = s.substr(selected[0] + 1, selected[1] - selected[0]);
-		string s3 = s.substr(selected[1] + 1, s.length() - 1 - selected[1]);
-
-		string newStr = to_string(stoi(s1) + stoi(s2) + stoi(s3));
-		int newCount = check(s1) + check(s2) + check(s3);
-		makeOdd(newStr, total + newCount);
+		
+		int result = countOdd(n);
+		string n1 = n.substr(0, index[0] + 1);
+		string n2 = n.substr(index[0] + 1, index[1] - index[0]);
+		string n3 = n.substr(index[1] + 1);
+		string newNum = to_string(stoi(n1) + stoi(n2) + stoi(n3));
+		operation(newNum, total + result);
 		return;
 	}
 
 	for (int i = startIndex; i < select.size(); ++i) {
-		if (select[i]) {
-			continue;
-		}
+		if (select[i]) continue;
 		select[i] = true;
-		dfs(s, total, select, i, cnt + 1);
+		dfs(n, select, total, i, cnt + 1);
 		select[i] = false;
 	}
+}
+
+int countOdd(string str) {
+	int cnt = 0;
+	for (char c : str) {
+		int n = c - '0';
+		if (n % 2) ++cnt;
+	}
+	return cnt;
 }
