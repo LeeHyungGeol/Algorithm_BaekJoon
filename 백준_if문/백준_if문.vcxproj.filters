@@ -1260,5 +1260,8 @@
     <ClCompile Include="[programmers 2021 winter] 3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="[백준 골드 3] 22860번.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
