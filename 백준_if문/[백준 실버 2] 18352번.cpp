@@ -13,7 +13,7 @@
 using namespace std;
 
 int N, M, K, X;
-vector<int> Graph[300001];
+vector<vector<int>> Graph;
 vector<int> Dist;
 
 vector<int> bfs(int start);
@@ -22,6 +22,7 @@ int main() {
 
 	cin >> N >> M >> K >> X;
 
+	Graph.resize(N + 1);
 	Dist.resize(N + 1, -1);
 
 	for (int i = 0, a, b; i < M; ++i) {
@@ -61,8 +62,6 @@ vector<int> bfs(int start) {
 	}
 
 	if (result.empty()) result.push_back(-1);
-
-	sort(result.begin(), result.end());
 
 	return result;
 }
