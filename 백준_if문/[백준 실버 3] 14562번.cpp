@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <algorithm>
 
 using namespace std;
 
@@ -9,9 +10,9 @@ typedef struct Node {
 }Node;
 
 int S, T, C;
-vector<bool> Visited;
 
 int bfs();
+int dfs(int cur, int end, int count);
 
 int main() {
 	cin >> C;
@@ -19,21 +20,29 @@ int main() {
 	for (int c = 0; c < C; ++c) {
 		cin >> S >> T;
 
-		int result = bfs();
-		
+		// int result = bfs();
+		int result = dfs(S, T, 0);
+
 		cout << result << '\n';
 	}
 
 	return 0;
 }
 
-int bfs() {
-	int result = 0;
-	queue<Node> q;
-	Visited.assign(202, false);
+int dfs(int cur, int end, int count) {
+	if (cur > end) return 100;
+	else if (cur == end) return count;
+	else {
+		int min1 = dfs(cur * 2, end + 3, count + 1);
+		int min2 = dfs(cur + 1, end, count + 1);
+		return min(min1, min2);
+	}
+}
 
+int bfs() {
+	int result = T - S;
+	queue<Node> q;
 	q.push({ S, T, 0 });
-	Visited[S] = true;
 
 	while (!q.empty()) {
 		int cur = q.front().cur;
@@ -42,18 +51,12 @@ int bfs() {
 		q.pop();
 
 		if (cur == end) {
-			result = count;
+			result = min(result, count);
 			break;
 		}
 
-		if (1 <= (cur + cur) && (cur + cur) <= 100 && 1 <= (T + 3) && (T + 3) <= 100 && !Visited[cur + cur]) {
-			Visited[cur + cur] = true;
-			end += 3;
-			q.push({ cur + cur, end, count + 1 });
-		}
-
-		if (1 <= (cur + 1) && (cur + 1) <= 100 && !Visited[cur + 1]) {
-			Visited[cur + 1] = true;
+		if (!(cur > end)) {
+			q.push({ cur * 2, end + 3, count + 1 });
 			q.push({ cur + 1, end, count + 1 });
 		}
 	}
